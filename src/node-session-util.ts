@@ -1,5 +1,5 @@
-import { NextFunction, Request, Response } from 'express'
 import { nodeSessionDao } from './node-session-dao'
+import { NextFunction, Request, Response } from 'express'
 
 export const nodeSessionUtil = {
   createSession: (callback: () => void): void => {
