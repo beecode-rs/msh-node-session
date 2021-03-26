@@ -21,14 +21,9 @@ export const nodeSessionDao = {
   },
   createAsync: <T>(callback: () => Promise<T>): Promise<T> => {
     return new Promise((resolve, reject) => {
-      try {
-        nodeSessionDao._ns.run(async () => {
-          const result = await callback()
-          resolve(result)
-        })
-      } catch (err) {
-        reject(err)
-      }
+      nodeSessionDao._ns.run(() => {
+        callback().then(resolve).catch(reject)
+      })
     })
   },
 }
