@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/beecode-rs/msh-node-session/compare/v1.0.2...v1.0.3) (2021-03-26)
+
+
+### Bug Fixes
+
+* session async call ([820641a](https://github.com/beecode-rs/msh-node-session/commit/820641a9e5ae24a4c132c16b0470280fe16d3fe5))
+
 ## [1.0.2](https://github.com/beecode-rs/msh-node-session/compare/v1.0.1...v1.0.2) (2021-03-17)
 
 
