@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/beecode-rs/msh-node-session/compare/v1.1.0...v1.1.1) (2021-04-16)
+
+
+### Bug Fixes
+
+* update package.json ([745c77f](https://github.com/beecode-rs/msh-node-session/commit/745c77fe8b9a4afb13d77a7f726f746786d4a753))
+
 # [1.1.0](https://github.com/beecode-rs/msh-node-session/compare/v1.0.3...v1.1.0) (2021-04-16)
 
 
