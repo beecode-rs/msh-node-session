@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/beecode-rs/msh-node-session/compare/v1.0.3...v1.1.0) (2021-04-16)
+
+
+### Features
+
+* add bindEmitter ([67ec9f9](https://github.com/beecode-rs/msh-node-session/commit/67ec9f944d2bfa16fc8d53bff4807df8e35895f3))
+
 ## [1.0.3](https://github.com/beecode-rs/msh-node-session/compare/v1.0.2...v1.0.3) (2021-03-26)
 
 
