@@ -8,4 +8,9 @@ export const nodeSessionUtil = {
   expressMiddleware: (_req: Request, _res: Response, next: NextFunction): void => {
     nodeSessionUtil.createSession(next)
   },
+  expressMiddlewareBindEmitter: (req: Request, res: Response, next: NextFunction): void => {
+    nodeSessionDao._ns.bindEmitter(req)
+    nodeSessionDao._ns.bindEmitter(res)
+    next()
+  },
 }
