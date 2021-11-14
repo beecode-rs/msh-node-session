@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/beecode-rs/msh-node-session/compare/v1.1.1...v2.0.0) (2021-11-14)
+
+
+* refactor!: use classes instead of objects for dao ([b4e75cc](https://github.com/beecode-rs/msh-node-session/commit/b4e75cc6e5537380ed666ff569b41c9601c3983c))
+
+
+### BREAKING CHANGES
+
+* using classes
+
 ## [1.1.1](https://github.com/beecode-rs/msh-node-session/compare/v1.1.0...v1.1.1) (2021-04-16)
 
 
