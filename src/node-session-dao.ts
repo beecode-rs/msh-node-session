@@ -1,29 +1,43 @@
-import { createNamespace } from 'cls-hooked'
+import { Namespace, createNamespace } from 'cls-hooked'
 
-export const _nsid = 'node-session-context-id-89a2af34c0a3f'
+export const _defaultNameSpaceId = 'node-session-context-id-89a2af34c0a3f'
 
-export const nodeSessionDao = {
-  _ns: createNamespace(_nsid),
-  _throwErrorIfInactiveContext: (): void => {
-    if (!nodeSessionDao._ns || !nodeSessionDao._ns.active) throw new Error('No active session found')
-  },
-  get: <T>(key: string): T | undefined => {
-    nodeSessionDao._throwErrorIfInactiveContext()
-    return nodeSessionDao._ns.get(key) as T | undefined
-  },
-  set: <T>(key: string, value: T): void => {
-    nodeSessionDao._throwErrorIfInactiveContext()
-    nodeSessionDao._ns.set(key, value)
-  },
-  clear: (key: string): void => {
-    nodeSessionDao._throwErrorIfInactiveContext()
-    nodeSessionDao._ns.set(key, undefined)
-  },
-  createAsync: <T>(callback: () => Promise<T>): Promise<T> => {
+export class NodeSessionDao {
+  protected readonly _ns: Namespace
+
+  public get NS(): Namespace {
+    return this._ns
+  }
+
+  constructor(params: { nameSpaceId?: string } = {}) {
+    const { nameSpaceId = _defaultNameSpaceId } = params
+    this._ns = createNamespace(nameSpaceId)
+  }
+
+  public get<T>(key: string): T | undefined {
+    this._throwErrorIfInactiveContext()
+    return this.NS.get(key) as T | undefined
+  }
+
+  public set<T>(key: string, value: T): void {
+    this._throwErrorIfInactiveContext()
+    this.NS.set(key, value)
+  }
+
+  public clear(key: string): void {
+    this._throwErrorIfInactiveContext()
+    this.NS.set(key, undefined)
+  }
+
+  public createAsync<T>(callback: () => Promise<T>): Promise<T> {
     return new Promise((resolve, reject) => {
-      nodeSessionDao._ns.run(() => {
+      this.NS.run(() => {
         callback().then(resolve).catch(reject)
       })
     })
-  },
+  }
+
+  protected _throwErrorIfInactiveContext(): void {
+    if (!this.NS.active) throw new Error('No active session found')
+  }
 }

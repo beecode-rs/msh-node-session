@@ -1,16 +1,29 @@
-import { nodeSessionDao } from './node-session-dao'
+import { NodeSessionDao } from './node-session-dao'
 import { NextFunction, Request, Response } from 'express'
 
-export const nodeSessionUtil = {
-  createSession: (callback: () => void): void => {
-    nodeSessionDao._ns.run(() => callback())
-  },
-  expressMiddleware: (_req: Request, _res: Response, next: NextFunction): void => {
-    nodeSessionUtil.createSession(next)
-  },
-  expressMiddlewareBindEmitter: (req: Request, res: Response, next: NextFunction): void => {
-    nodeSessionDao._ns.bindEmitter(req)
-    nodeSessionDao._ns.bindEmitter(res)
+export class NodeSessionUtil {
+  protected readonly _dao: NodeSessionDao
+
+  constructor(props: { nodeSessionDao?: NodeSessionDao } = {}) {
+    const { nodeSessionDao = new NodeSessionDao() } = props
+    this._dao = nodeSessionDao
+  }
+
+  public createSession(callback: () => void): void {
+    this._dao.NS.run(() => callback())
+  }
+
+  public expressMiddleware(_req: Request, _res: Response, next: NextFunction): void {
+    this.createSession(next)
+  }
+
+  public expressMiddlewareBindEmitter(req: Request, res: Response, next: NextFunction): void {
+    this._dao.NS.bindEmitter(req)
+    this._dao.NS.bindEmitter(res)
     next()
-  },
+  }
+}
+
+export const nodeSessionUtilFactory = (params: { nodeSessionDao?: NodeSessionDao } = {}): NodeSessionUtil => {
+  return new NodeSessionUtil(params)
 }

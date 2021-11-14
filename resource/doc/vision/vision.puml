@@ -1,0 +1,50 @@
+@startuml
+    object "Namespace" as namespace_6f0870ff {
+      cls-hooked.ts
+    }
+    object "createNamespace" as create_namespace_6f0870ff {
+      cls-hooked.ts
+    }
+    object "NextFunction" as next_function_624f3316 {
+      express.ts
+    }
+    object "Request" as request_624f3316 {
+      express.ts
+    }
+    object "Response" as response_624f3316 {
+      express.ts
+    }
+    folder "src" as src_b874d07 {
+      artifact "index.ts" as index_ts_e4daf83f {
+      }
+      object "_defaultNameSpaceId" as default_name_space_id_407f9775 {
+      }
+      class "NodeSessionDao" as node_session_dao_407f9775 {
+        + NS: Namespace
+        # _ns: Namespace
+        # _throwErrorIfInactiveContext: void
+        + clear(key: string): void
+        constructor(params: { nameSpaceId?: string } = {})
+        + createAsync(callback: () => Promise<T>): Promise<T>
+        + get(key: string): T | undefined
+        + set(key: string,\n value: T): void
+      }
+      class "NodeSessionUtil" as node_session_util_cf9cb43b {
+        # _dao: NodeSessionDao
+        constructor(props: { nodeSessionDao?: NodeSessionDao } = {})
+        + createSession(callback: () => void): void
+        + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
+        + expressMiddlewareBindEmitter(req: Request,\n res: Response,\n next: NextFunction): void
+      }
+      object "nodeSessionUtilFactory" as node_session_util_factory_cf9cb43b {
+      }
+    }
+  node_session_dao_407f9775 -up-> namespace_6f0870ff
+  node_session_dao_407f9775 -up-> create_namespace_6f0870ff
+  node_session_util_cf9cb43b -up-> node_session_dao_407f9775
+  node_session_util_cf9cb43b -up-> next_function_624f3316
+  node_session_util_cf9cb43b -up-> request_624f3316
+  node_session_util_cf9cb43b -up-> response_624f3316
+  node_session_util_factory_cf9cb43b -up-> node_session_dao_407f9775
+  node_session_util_factory_cf9cb43b -up-> node_session_util_cf9cb43b
+@enduml
