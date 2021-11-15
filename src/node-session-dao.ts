@@ -29,14 +29,6 @@ export class NodeSessionDao {
     this.NS.set(key, undefined)
   }
 
-  public createAsync<T>(callback: () => Promise<T>): Promise<T> {
-    return new Promise((resolve, reject) => {
-      this.NS.run(() => {
-        callback().then(resolve).catch(reject)
-      })
-    })
-  }
-
   protected _throwErrorIfInactiveContext(): void {
     if (!this.NS.active) throw new Error('No active session found')
   }

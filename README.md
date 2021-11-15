@@ -27,6 +27,8 @@ This project is intended to be used in typescript project.
 
 ## Usage
 
+### Util implementation example
+
 ```typescript
 import { NodeSessionDao, nodeSessionUtilFactory } from '@beecode/msh-node-session'
 
@@ -82,4 +84,17 @@ export const sessionUtil = {
     })
   },
 }
+```
+
+### Express middleware example
+
+```typescript
+import express from 'express'
+
+const expressApp = express()
+
+expressApp.use(sessionUtil.expressMiddleware)
+expressApp.use(sessionUtil.expressMiddlewareBindEmitter)
+// other middlewares
+// expressApp.use(... 
 ```

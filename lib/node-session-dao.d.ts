@@ -9,7 +9,6 @@ export declare class NodeSessionDao {
     get<T>(key: string): T | undefined;
     set<T>(key: string, value: T): void;
     clear(key: string): void;
-    createAsync<T>(callback: () => Promise<T>): Promise<T>;
     protected _throwErrorIfInactiveContext(): void;
 }
 //# sourceMappingURL=node-session-dao.d.ts.map

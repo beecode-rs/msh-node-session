@@ -5,6 +5,7 @@ export declare class NodeSessionUtil {
     constructor(props?: {
         nodeSessionDao?: NodeSessionDao;
     });
+    createAsyncSession<T>(callback: () => Promise<T>): Promise<T>;
     createSession(callback: () => void): void;
     expressMiddleware(_req: Request, _res: Response, next: NextFunction): void;
     expressMiddlewareBindEmitter(req: Request, res: Response, next: NextFunction): void;

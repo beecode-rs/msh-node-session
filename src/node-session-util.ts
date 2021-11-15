@@ -9,6 +9,14 @@ export class NodeSessionUtil {
     this._dao = nodeSessionDao
   }
 
+  public createAsyncSession<T = any>(callback: () => Promise<T>): Promise<T> {
+    return new Promise((resolve, reject) => {
+      this._dao.NS.run(() => {
+        callback().then(resolve).catch(reject)
+      })
+    })
+  }
+
   public createSession(callback: () => void): void {
     this._dao.NS.run(() => callback())
   }
