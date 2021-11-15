@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/beecode-rs/msh-node-session/compare/v2.0.0...v2.1.0) (2021-11-15)
+
+
+### Features
+
+* move createAsync session to util ([2932d9f](https://github.com/beecode-rs/msh-node-session/commit/2932d9f7c535eda2b039d5b6e189d8be6c372f4f))
+
 # [2.0.0](https://github.com/beecode-rs/msh-node-session/compare/v1.1.1...v2.0.0) (2021-11-14)
 
 
