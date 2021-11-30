@@ -4,8 +4,8 @@ import { NextFunction, Request, Response } from 'express'
 export class NodeSessionUtil {
   protected readonly _dao: NodeSessionDao
 
-  constructor(props: { nodeSessionDao?: NodeSessionDao } = {}) {
-    const { nodeSessionDao = new NodeSessionDao() } = props
+  public constructor(props?: { nodeSessionDao?: NodeSessionDao }) {
+    const { nodeSessionDao = new NodeSessionDao() } = props ?? {}
     this._dao = nodeSessionDao
   }
 

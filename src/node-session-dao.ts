@@ -9,8 +9,8 @@ export class NodeSessionDao {
     return this._ns
   }
 
-  constructor(params: { nameSpaceId?: string } = {}) {
-    const { nameSpaceId = _defaultNameSpaceId } = params
+  public constructor(params?: { nameSpaceId?: string }) {
+    const { nameSpaceId = _defaultNameSpaceId } = params ?? {}
     this._ns = createNamespace(nameSpaceId)
   }
 

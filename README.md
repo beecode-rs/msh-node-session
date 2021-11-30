@@ -29,6 +29,77 @@ This project is intended to be used in typescript project.
 
 ### Util implementation example
 
+#### Class extension
+
+```typescript
+import { NodeSessionUtil } from '@beecode/msh-node-session'
+import { cacheUtil } from '@beecode/msh-node-util/lib/cache-util'
+
+export enum SessionData {
+  TYPEORM_ENTITY_MANAGER = 'typeorm-entity-manager',
+  AUTH_USER = 'auth-user',
+}
+
+export class SessionUtil extends NodeSessionUtil {
+
+  public constructor(params: { nodeSessionDao?: NodeSessionDao }) {
+    const { nodeSessionDao } = params ?? {}
+    super({ nodeSessionDao })
+  }
+
+  public getTransactionManager(): EntityManager | undefined {
+    try {
+      return nodeSessionDao.get<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER)
+    } catch (_err) {
+      return undefined
+    }
+  }
+
+  protected _setTransactionManager(entityManager: EntityManager): void {
+    return this._dao.set<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER, entityManager)
+  }
+  
+  public async startTransaction<T>(callback: (transactionEntityManager: EntityManager) => Promise<T>): Promise<T> {
+    return nodeSessionDao.createAsync(() => {
+      const existingTransactionManager = this.getTransactionManager()
+      if (existingTransactionManager) return callback(existingTransactionManager)
+      return databaseService.getConnection().transaction<T>((newTransEntityManager: EntityManager) => {
+        this._setTransactionManager(newTransEntityManager)
+        return callback(newTransEntityManager)
+      })
+    })
+  }
+
+  public setAuthUser(authUser: JWTPayloadUser): void {
+    return this._dao.set<JWTPayloadUser>(SessionData.AUTH_USER, authUser);
+  }
+
+  public getAuthUser(): JWTPayloadUser {
+    const authUser = nodeSessionDao.get<JWTPayloadUser>(SessionData.AUTH_USER)
+    if (!authUser) throw error.server.internalServerError('Missing auth user from session')
+    return authUser
+  }
+
+  /**
+   * Connect to existing transaction, this is only used in migrations files
+   * @param {EntityManager} entityManager
+   * @param {() => Promise<T>} callback
+   * @returns {Promise<T>}
+   */
+  public async entityManagerSideCall<T>(entityManager: EntityManager, callback: () => Promise<T>): Promise<T> {
+    return this._dao.createAsync(async () => {
+      this._setTransactionManager(entityManager)
+      return callback()
+    })
+  }
+}
+
+export const sessionUtil = cacheUtil.singleton(() => new SessionUtil())
+
+```
+
+#### Factory implementation
+
 ```typescript
 import { NodeSessionDao, nodeSessionUtilFactory } from '@beecode/msh-node-session'
 

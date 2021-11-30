@@ -24,14 +24,14 @@
         # _ns: Namespace
         # _throwErrorIfInactiveContext: void
         + clear(key: string): void
-        constructor(params: { nameSpaceId?: string } = {})
+       + constructor(params: { nameSpaceId?: string } = {})
         + createAsync(callback: () => Promise<T>): Promise<T>
         + get(key: string): T | undefined
         + set(key: string,\n value: T): void
       }
       class "NodeSessionUtil" as node_session_util_cf9cb43b {
         # _dao: NodeSessionDao
-        constructor(props: { nodeSessionDao?: NodeSessionDao } = {})
+       + constructor(props: { nodeSessionDao?: NodeSessionDao } = {})
         + createSession(callback: () => void): void
         + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
         + expressMiddlewareBindEmitter(req: Request,\n res: Response,\n next: NextFunction): void
