@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "cls-hooked": "4.2.2",
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "fast-als": "1.0.1",
+    "fastify-plugin": "3.0.0"
   },
   "description": "",
   "devDependencies": {

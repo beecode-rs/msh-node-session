@@ -1,8 +1,9 @@
+import { CreateSessionOptions, SessionStrategy } from './session-strategy'
 import { Namespace, createNamespace } from 'cls-hooked'
 
 export const _defaultNameSpaceId = 'node-session-context-id-89a2af34c0a3f'
 
-export class NodeSessionDao {
+export class ClsHooksStrategy implements SessionStrategy {
   protected readonly _ns: Namespace
 
   public get NS(): Namespace {
@@ -27,6 +28,14 @@ export class NodeSessionDao {
   public clear(key: string): void {
     this._throwErrorIfInactiveContext()
     this.NS.set(key, undefined)
+  }
+
+  public createSession(callback: () => void, options?: CreateSessionOptions): void {
+    const { defaultValue = {} } = options ?? {}
+    this.NS.run(() => {
+      Object.entries(defaultValue).map(([key, value]) => this.set(key, value))
+      callback()
+    })
   }
 
   protected _throwErrorIfInactiveContext(): void {
