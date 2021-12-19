@@ -1,11 +1,11 @@
-import { ClsHooksStrategy } from './session-strategy/cls-hooks-strategy'
+import { ClsHookedStrategy } from './session-strategy/cls-hooked-strategy'
 import { SessionStrategy } from './session-strategy/session-strategy'
 
 export class NodeSessionUtil {
   protected readonly _strategy: SessionStrategy
 
   public constructor(props?: { sessionStrategy?: SessionStrategy }) {
-    const { sessionStrategy = new ClsHooksStrategy() } = props ?? {}
+    const { sessionStrategy = new ClsHookedStrategy() } = props ?? {}
     this._strategy = sessionStrategy
   }
 

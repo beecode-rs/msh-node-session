@@ -1,50 +1,79 @@
 @startuml
-    object "Namespace" as namespace_6f0870ff {
-      cls-hooked.ts
-    }
-    object "createNamespace" as create_namespace_6f0870ff {
-      cls-hooked.ts
-    }
-    object "NextFunction" as next_function_624f3316 {
-      express.ts
-    }
-    object "Request" as request_624f3316 {
-      express.ts
-    }
-    object "Response" as response_624f3316 {
-      express.ts
-    }
     folder "src" as src_b874d07 {
-      artifact "index.ts" as index_ts_e4daf83f {
-      }
-      object "_defaultNameSpaceId" as default_name_space_id_407f9775 {
-      }
-      class "NodeSessionDao" as node_session_dao_407f9775 {
-        + NS: Namespace
-        # _ns: Namespace
-        # _throwErrorIfInactiveContext: void
-        + clear(key: string): void
-       + constructor(params: { nameSpaceId?: string } = {})
-        + createAsync(callback: () => Promise<T>): Promise<T>
-        + get(key: string): T | undefined
-        + set(key: string,\n value: T): void
-      }
       class "NodeSessionUtil" as node_session_util_cf9cb43b {
-        # _dao: NodeSessionDao
-       + constructor(props: { nodeSessionDao?: NodeSessionDao } = {})
+        # _strategy: SessionStrategy
+        + constructor(props?: { sessionStrategy?: SessionStrategy })
+        + createAsyncSession(callback: () => Promise<T>): Promise<T>
         + createSession(callback: () => void): void
-        + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
-        + expressMiddlewareBindEmitter(req: Request,\n res: Response,\n next: NextFunction): void
       }
-      object "nodeSessionUtilFactory" as node_session_util_factory_cf9cb43b {
+      folder "helpers" as helpers_e79980dd {
+        class "ExpressClsHookedHelper" as express_cls_hooked_helper_da32a454 {
+          # _clsHooksStrategy: ClsHookedStrategy
+          + constructor(params: { clsHooksStrategy: ClsHookedStrategy })
+          + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
+          + expressMiddlewareBindEmitter(req: Request,\n res: Response,\n next: NextFunction): void
+        }
+        object "expressClsHooksHelperFactory" as express_cls_hooks_helper_factory_da32a454 {
+        }
+        class "ExpressFastAlsHelper" as express_fast_als_helper_7b7757d4 {
+          # _fastAlsStrategy: FastAlsStrategy
+          + constructor(params: { fastAlsStrategy: FastAlsStrategy })
+          + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
+        }
+        object "expressFastAlsHelperFactory" as express_fast_als_helper_factory_7b7757d4 {
+        }
+        class "FastifyHelper" as fastify_helper_438f46 {
+          # _plugin(fastify: any,\n opts: any,\n next: () => void): void
+          # _sessionStrategy: SessionStrategy
+          + beecodeSessionContextPluginFactory: any
+          + constructor(params: { sessionStrategy: SessionStrategy })
+          + validHooks
+        }
+        object "fastifyHelperFactory" as fastify_helper_factory_438f46 {
+        }
+      }
+      folder "session-strategy" as session_strategy_8743c280 {
+        object "_defaultNameSpaceId" as default_name_space_id_5f19a943 {
+        }
+        class "ClsHookedStrategy" as cls_hooked_strategy_5f19a943 {
+          + NS: Namespace
+          # _ns: Namespace
+          # _throwErrorIfInactiveContext: void
+          + clear(key: string): void
+          + constructor(params?: { nameSpaceId?: string })
+          + createSession(callback: () => void,\n options?: CreateSessionOptions): void
+          + get(key: string): T | undefined
+          + set(key: string,\n value: T): void
+        }
+        class "FastAlsStrategy" as fast_als_strategy_82c98943 {
+          + clear(key: string): void
+          + createSession(callback: () => void,\n options?: CreateSessionOptions): void
+          + get(key: string): T | undefined
+          + set(key: string,\n value: T): void
+        }
+        card create_session_options_87f89bce [
+          CreateSessionOptions
+          ---
+          { defaultValue?: { [k: string]: any } }
+        ]
+        interface "SessionStrategy" as session_strategy_87f89bce {
+          + get(key: string): T | undefined
+          + set(key: string,\n value: T): void
+          + clear(key: string): void
+          + createSession(callback: () => void,\n options?: CreateSessionOptions): void
+        }
       }
     }
-  node_session_dao_407f9775 -up-> namespace_6f0870ff
-  node_session_dao_407f9775 -up-> create_namespace_6f0870ff
-  node_session_util_cf9cb43b -up-> node_session_dao_407f9775
-  node_session_util_cf9cb43b -up-> next_function_624f3316
-  node_session_util_cf9cb43b -up-> request_624f3316
-  node_session_util_cf9cb43b -up-> response_624f3316
-  node_session_util_factory_cf9cb43b -up-> node_session_dao_407f9775
-  node_session_util_factory_cf9cb43b -up-> node_session_util_cf9cb43b
+  express_cls_hooks_helper_factory_da32a454 -up-> express_cls_hooked_helper_da32a454
+  express_fast_als_helper_7b7757d4 -up-> fast_als_strategy_82c98943
+  express_fast_als_helper_factory_7b7757d4 -up-> fast_als_strategy_82c98943
+  express_fast_als_helper_factory_7b7757d4 -up-> express_fast_als_helper_7b7757d4
+  fastify_helper_438f46 -up-> session_strategy_87f89bce
+  fastify_helper_factory_438f46 -up-> session_strategy_87f89bce
+  fastify_helper_factory_438f46 -up-> fastify_helper_438f46
+  node_session_util_cf9cb43b -up-> session_strategy_87f89bce
+  cls_hooked_strategy_5f19a943 -up-> create_session_options_87f89bce
+  cls_hooked_strategy_5f19a943 .up.|> session_strategy_87f89bce
+  fast_als_strategy_82c98943 -up-> create_session_options_87f89bce
+  fast_als_strategy_82c98943 .up.|> session_strategy_87f89bce
 @enduml

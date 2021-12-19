@@ -1,3 +1,3 @@
 #!/bin/bash
 
-vision --projectRootPath=../../.. --tsConfig=../../../tsconfig.json --destName=vision
+vision --projectRootPath=../../.. --tsConfig=../../../tsconfig.json  --printIgnoreExternal --destName=vision

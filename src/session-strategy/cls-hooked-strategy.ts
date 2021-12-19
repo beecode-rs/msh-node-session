@@ -3,7 +3,7 @@ import { Namespace, createNamespace } from 'cls-hooked'
 
 export const _defaultNameSpaceId = 'node-session-context-id-89a2af34c0a3f'
 
-export class ClsHooksStrategy implements SessionStrategy {
+export class ClsHookedStrategy implements SessionStrategy {
   protected readonly _ns: Namespace
 
   public get NS(): Namespace {

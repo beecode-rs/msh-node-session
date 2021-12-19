@@ -32,7 +32,12 @@ This project is intended to be used in typescript project.
 #### Class extension
 
 ```typescript
-import { NodeSessionUtil } from '@beecode/msh-node-session'
+// src/util/session-util.ts
+
+import { NodeSessionUtil } from '@beecode/msh-node-session/lib/node-session-util'
+import { FastAlsStrategy } from '@beecode/msh-node-session/lib/session-strategy/fast-als-strategy'
+// import { ClsHookedStrategy } from '@beecode/msh-node-session/lib/session-strategy/cls-hooked-strategy'
+import { SessionStrategy } from '@beecode/msh-node-session/lib/session-strategy/session-strategy'
 import { cacheUtil } from '@beecode/msh-node-util/lib/cache-util'
 
 export enum SessionData {
@@ -42,25 +47,25 @@ export enum SessionData {
 
 export class SessionUtil extends NodeSessionUtil {
 
-  public constructor(params: { nodeSessionDao?: NodeSessionDao }) {
-    const { nodeSessionDao } = params ?? {}
-    super({ nodeSessionDao })
+  public constructor(params?: { sessionStrategy?: SessionStrategy }) {
+    const { sessionStrategy } = params ?? {}
+    super({ sessionStrategy })
   }
 
   public getTransactionManager(): EntityManager | undefined {
     try {
-      return nodeSessionDao.get<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER)
+      return this._strategy.get<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER)
     } catch (_err) {
       return undefined
     }
   }
 
   protected _setTransactionManager(entityManager: EntityManager): void {
-    return this._dao.set<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER, entityManager)
+    return this._strategy.set<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER, entityManager)
   }
   
   public async startTransaction<T>(callback: (transactionEntityManager: EntityManager) => Promise<T>): Promise<T> {
-    return nodeSessionDao.createAsync(() => {
+    return this.createAsyncSession(() => {
       const existingTransactionManager = this.getTransactionManager()
       if (existingTransactionManager) return callback(existingTransactionManager)
       return databaseService.getConnection().transaction<T>((newTransEntityManager: EntityManager) => {
@@ -71,11 +76,11 @@ export class SessionUtil extends NodeSessionUtil {
   }
 
   public setAuthUser(authUser: JWTPayloadUser): void {
-    return this._dao.set<JWTPayloadUser>(SessionData.AUTH_USER, authUser);
+    this._strategy.set<JWTPayloadUser>(SessionData.AUTH_USER, authUser)
   }
 
   public getAuthUser(): JWTPayloadUser {
-    const authUser = nodeSessionDao.get<JWTPayloadUser>(SessionData.AUTH_USER)
+    const authUser = this._strategy.get<JWTPayloadUser>(SessionData.AUTH_USER)
     if (!authUser) throw error.server.internalServerError('Missing auth user from session')
     return authUser
   }
@@ -87,85 +92,64 @@ export class SessionUtil extends NodeSessionUtil {
    * @returns {Promise<T>}
    */
   public async entityManagerSideCall<T>(entityManager: EntityManager, callback: () => Promise<T>): Promise<T> {
-    return this._dao.createAsync(async () => {
+    return this.createAsyncSession(async () => {
       this._setTransactionManager(entityManager)
       return callback()
     })
   }
 }
 
-export const sessionUtil = cacheUtil.singleton(() => new SessionUtil())
+export const sessionStrategy = new FastAlsStrategy()
+// export const sessionStrategy = new ClsHookedStrategy()
+export const sessionUtil = cacheUtil.singleton(() => new SessionUtil({ sessionStrategy }))
 
 ```
 
-#### Factory implementation
+### Fastify middleware example
 
 ```typescript
-import { NodeSessionDao, nodeSessionUtilFactory } from '@beecode/msh-node-session'
+import Fastify from 'fastify'
+import { fastifyHelperFactory } from '@beecode/msh-node-session/lib/helpers/fastify-helper'
+import { sessionStrategy } from 'src/util/session-util'
 
 
-export enum SessionData {
-  TYPEORM_ENTITY_MANAGER = 'typeorm-entity-manager',
-  AUTH_USER = 'auth-user',
-}
+const fastify = Fastify()
 
-export const sessionUtil = {
-  ...nodeSessionUtilFactory(),
+const fastifyHelper = fastifyHelperFactory({sessionStrategy})
 
-  getTransactionManager: (): EntityManager | undefined => {
-    try {
-      return nodeSessionDao.get<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER)
-    } catch (_err) {
-      return undefined
-    }
-  },
+await fastify.register(fastifyHelper.beecodeSessionContextPluginFactory())
 
-  _setTransactionManager: (entityManager: EntityManager): void =>
-    nodeSessionDao.set<EntityManager>(SessionData.TYPEORM_ENTITY_MANAGER, entityManager),
-
-  startTransaction: async <T>(callback: (transactionEntityManager: EntityManager) => Promise<T>): Promise<T> => {
-    return nodeSessionDao.createAsync(() => {
-      const existingTransactionManager = sessionUtil.getTransactionManager()
-      if (existingTransactionManager) return callback(existingTransactionManager)
-      return databaseService.getConnection().transaction<T>((newTransEntityManager: EntityManager) => {
-        sessionUtil._setTransactionManager(newTransEntityManager)
-        return callback(newTransEntityManager)
-      })
-    })
-  },
-
-  setAuthUser: (authUser: JWTPayloadUser): void => nodeSessionDao.set<JWTPayloadUser>(SessionData.AUTH_USER, authUser),
-
-  getAuthUser: (): JWTPayloadUser => {
-    const authUser = nodeSessionDao.get<JWTPayloadUser>(SessionData.AUTH_USER)
-    if (!authUser) throw error.server.internalServerError('Missing auth user from session')
-    return authUser
-  },
-
-  /**
-   * Connect to existing transaction, this is only used in migrations files
-   * @param {EntityManager} entityManager
-   * @param {() => Promise<T>} callback
-   * @returns {Promise<T>}
-   */
-  entityManagerSideCall: async <T>(entityManager: EntityManager, callback: () => Promise<T>): Promise<T> => {
-    return nodeSessionDao.createAsync(async () => {
-      sessionUtil._setTransactionManager(entityManager)
-      return callback()
-    })
-  },
-}
 ```
 
 ### Express middleware example
 
+#### FastAls
+
 ```typescript
 import express from 'express'
+import { expressFastAlsHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-fast-als-helper'
+import { sessionStrategy } from 'src/util/session-util'
 
 const expressApp = express()
 
-expressApp.use(sessionUtil.expressMiddleware)
-expressApp.use(sessionUtil.expressMiddlewareBindEmitter)
+const expressFastAlsHelper = expressFastAlsHelperFactory({fastAlsStrategy:sessionStrategy})
+this._expressApp.use((req, res, next) => expressFastAlsHelper.expressMiddleware(req, res, next))
+// other middlewares
+// expressApp.use(... 
+```
+
+#### ClsHooked
+
+```typescript
+import express from 'express'
+import { expressClsHookedHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-cls-hooked-helper'
+import { sessionStrategy } from 'src/util/session-util'
+
+const expressApp = express()
+
+const expressClsHookedHelperHelper = expressClsHookedHelperFactory({fastAlsStrategy:sessionStrategy})
+this._expressApp.use((req, res, next) => expressClsHookedHelperHelper.expressMiddleware(req, res, next))
+this._expressApp.use((req, res, next) => expressClsHookedHelperHelper.expressMiddlewareBindEmitter(req, res, next))
 // other middlewares
 // expressApp.use(... 
 ```
