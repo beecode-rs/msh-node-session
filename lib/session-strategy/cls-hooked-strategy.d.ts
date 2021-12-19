@@ -1,7 +1,7 @@
 import { CreateSessionOptions, SessionStrategy } from './session-strategy';
 import { Namespace } from 'cls-hooked';
 export declare const _defaultNameSpaceId = "node-session-context-id-89a2af34c0a3f";
-export declare class ClsHooksStrategy implements SessionStrategy {
+export declare class ClsHookedStrategy implements SessionStrategy {
     protected readonly _ns: Namespace;
     get NS(): Namespace;
     constructor(params?: {
@@ -13,4 +13,4 @@ export declare class ClsHooksStrategy implements SessionStrategy {
     createSession(callback: () => void, options?: CreateSessionOptions): void;
     protected _throwErrorIfInactiveContext(): void;
 }
-//# sourceMappingURL=cls-hooks-strategy.d.ts.map
+//# sourceMappingURL=cls-hooked-strategy.d.ts.map

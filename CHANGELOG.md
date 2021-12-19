@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/beecode-rs/msh-node-session/compare/v2.2.0...v2.2.1) (2021-12-19)
+
+
+### Bug Fixes
+
+* add express fastAls helper, fix typo ([39cd6bc](https://github.com/beecode-rs/msh-node-session/commit/39cd6bc735b3605322d355d788507d1f18a198ee))
+
 # [2.2.0](https://github.com/beecode-rs/msh-node-session/compare/v2.1.1...v2.2.0) (2021-12-19)
 
 
