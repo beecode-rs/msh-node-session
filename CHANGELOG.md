@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/beecode-rs/msh-node-session/compare/v2.2.1...v2.2.2) (2021-12-19)
+
+
+### Bug Fixes
+
+* bump version of fastify plugin to v3 ([646e304](https://github.com/beecode-rs/msh-node-session/commit/646e3041d1e4e461381850113668cf11be2852bc))
+
 ## [2.2.1](https://github.com/beecode-rs/msh-node-session/compare/v2.2.0...v2.2.1) (2021-12-19)
 
 
