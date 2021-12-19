@@ -8,12 +8,12 @@
       }
       folder "helpers" as helpers_e79980dd {
         class "ExpressClsHookedHelper" as express_cls_hooked_helper_da32a454 {
-          # _clsHooksStrategy: ClsHookedStrategy
-          + constructor(params: { clsHooksStrategy: ClsHookedStrategy })
+          # _clsHookedStrategy: ClsHookedStrategy
+          + constructor(params: { clsHookedStrategy: ClsHookedStrategy })
           + expressMiddleware(_req: Request,\n _res: Response,\n next: NextFunction): void
           + expressMiddlewareBindEmitter(req: Request,\n res: Response,\n next: NextFunction): void
         }
-        object "expressClsHooksHelperFactory" as express_cls_hooks_helper_factory_da32a454 {
+        object "expressClsHookedHelperFactory" as express_cls_hooked_helper_factory_da32a454 {
         }
         class "ExpressFastAlsHelper" as express_fast_als_helper_7b7757d4 {
           # _fastAlsStrategy: FastAlsStrategy
@@ -64,7 +64,9 @@
         }
       }
     }
-  express_cls_hooks_helper_factory_da32a454 -up-> express_cls_hooked_helper_da32a454
+  express_cls_hooked_helper_da32a454 -up-> cls_hooked_strategy_5f19a943
+  express_cls_hooked_helper_factory_da32a454 -up-> cls_hooked_strategy_5f19a943
+  express_cls_hooked_helper_factory_da32a454 -up-> express_cls_hooked_helper_da32a454
   express_fast_als_helper_7b7757d4 -up-> fast_als_strategy_82c98943
   express_fast_als_helper_factory_7b7757d4 -up-> fast_als_strategy_82c98943
   express_fast_als_helper_factory_7b7757d4 -up-> express_fast_als_helper_7b7757d4
