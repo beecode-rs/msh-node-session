@@ -38,7 +38,7 @@ export class FastifyHelper {
 
   public beecodeSessionContextPluginFactory(): any {
     return fp(this._plugin.bind(this), {
-      fastify: '2.x',
+      fastify: '3.x',
       name: 'beecode-session-context',
     })
   }
