@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/beecode-rs/msh-node-session/compare/v2.1.1...v2.2.0) (2021-12-19)
+
+
+### Bug Fixes
+
+* disable tests ([00a2111](https://github.com/beecode-rs/msh-node-session/commit/00a2111bc050b3a06184c86da91f441984430fae))
+
+
+### Features
+
+* add fastAls strategy ([f3ee23b](https://github.com/beecode-rs/msh-node-session/commit/f3ee23bf1103d43ae74449157946f65ccb30a35f))
+
 ## [2.1.1](https://github.com/beecode-rs/msh-node-session/compare/v2.1.0...v2.1.1) (2021-11-21)
 
 
