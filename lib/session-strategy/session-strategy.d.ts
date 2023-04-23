@@ -1,4 +1,4 @@
-export declare type CreateSessionOptions = {
+export type CreateSessionOptions = {
     defaultValue?: {
         [k: string]: any;
     };

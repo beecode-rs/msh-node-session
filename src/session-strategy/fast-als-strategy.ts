@@ -1,25 +1,25 @@
-import { CreateSessionOptions, SessionStrategy } from './session-strategy'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
+// @ts-expect-error
 import fastAls from 'fast-als'
+import { CreateSessionOptions, SessionStrategy } from 'src/session-strategy/session-strategy'
 
 export class FastAlsStrategy implements SessionStrategy {
-  public clear(key: string): void {
-    fastAls.set(key, undefined)
-  }
+	clear(key: string): void {
+		fastAls.set(key, undefined)
+	}
 
-  public createSession(callback: () => void, options?: CreateSessionOptions): void {
-    const { defaultValue = {} } = options ?? {}
-    fastAls.runWith(defaultValue, () => {
-      callback()
-    })
-  }
+	createSession(callback: () => void, options?: CreateSessionOptions): void {
+		const { defaultValue = {} } = options ?? {}
+		fastAls.runWith(defaultValue, () => {
+			callback()
+		})
+	}
 
-  public get<T>(key: string): T | undefined {
-    return fastAls.get(key) as T | undefined
-  }
+	get<T>(key: string): T | undefined {
+		return fastAls.get(key) as T | undefined
+	}
 
-  public set<T>(key: string, value: T): void {
-    fastAls.set(key, value)
-  }
+	set<T>(key: string, value: T): void {
+		fastAls.set(key, value)
+	}
 }
