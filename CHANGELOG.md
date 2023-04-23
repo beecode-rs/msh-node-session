@@ -1,3 +1,11 @@
+## [2.2.5](https://github.com/beecode-rs/msh-node-session/compare/v2.2.4...v2.2.5) (2023-04-23)
+
+
+### Bug Fixes
+
+* build script ([9342ef2](https://github.com/beecode-rs/msh-node-session/commit/9342ef2166c01df01313082e8014b367292bc959))
+* update project, update package.json ([8f4746a](https://github.com/beecode-rs/msh-node-session/commit/8f4746a23cd1f874890443eacebb675dc618689a))
+
 ## [2.2.4](https://github.com/beecode-rs/msh-node-session/compare/v2.2.3...v2.2.4) (2022-10-16)
 
 
