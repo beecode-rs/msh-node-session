@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from 'express'
-import { ClsHookedStrategy } from 'src/session-strategy/cls-hooked-strategy'
+
+import { ClsHookedStrategy } from '#/session-strategy/cls-hooked-strategy.js'
 
 export class ExpressClsHookedHelper {
 	protected readonly _clsHookedStrategy: ClsHookedStrategy

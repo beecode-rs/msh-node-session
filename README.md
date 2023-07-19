@@ -34,11 +34,11 @@ This project is intended to be used in typescript project.
 ```typescript
 // src/util/session-util.ts
 
-import { NodeSessionUtil } from '@beecode/msh-node-session/lib/node-session-util'
-import { FastAlsStrategy } from '@beecode/msh-node-session/lib/session-strategy/fast-als-strategy'
-// import { ClsHookedStrategy } from '@beecode/msh-node-session/lib/session-strategy/cls-hooked-strategy'
-import { SessionStrategy } from '@beecode/msh-node-session/lib/session-strategy/session-strategy'
-import { cacheUtil } from '@beecode/msh-node-util/lib/cache-util'
+import { NodeSessionUtil } from '@beecode/msh-node-session/lib/node-session-util.js'
+import { FastAlsStrategy } from '@beecode/msh-node-session/lib/session-strategy/fast-als-strategy.js'
+// import { ClsHookedStrategy } from '@beecode/msh-node-session/lib/session-strategy/cls-hooked-strategy.js'
+import { SessionStrategy } from '@beecode/msh-node-session/lib/session-strategy/session-strategy.js'
+import { cacheUtil } from '@beecode/msh-node-util/lib/cache-util.js'
 
 export enum SessionData {
   TYPEORM_ENTITY_MANAGER = 'typeorm-entity-manager',
@@ -109,7 +109,7 @@ export const sessionUtil = cacheUtil.singleton(() => new SessionUtil({ sessionSt
 
 ```typescript
 import Fastify from 'fastify'
-import { fastifyHelperFactory } from '@beecode/msh-node-session/lib/helpers/fastify-helper'
+import { fastifyHelperFactory } from '@beecode/msh-node-session/lib/helpers/fastify-helper.js'
 import { sessionStrategy } from 'src/util/session-util'
 
 
@@ -127,7 +127,7 @@ await fastify.register(fastifyHelper.beecodeSessionContextPluginFactory())
 
 ```typescript
 import express from 'express'
-import { expressFastAlsHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-fast-als-helper'
+import { expressFastAlsHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-fast-als-helper.js'
 import { sessionStrategy } from 'src/util/session-util'
 
 const expressApp = express()
@@ -142,7 +142,7 @@ this._expressApp.use((req, res, next) => expressFastAlsHelper.expressMiddleware(
 
 ```typescript
 import express from 'express'
-import { expressClsHookedHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-cls-hooked-helper'
+import { expressClsHookedHelperFactory } from '@beecode/msh-node-session/lib/helpers/express-cls-hooked-helper.js'
 import { sessionStrategy } from 'src/util/session-util'
 
 const expressApp = express()
