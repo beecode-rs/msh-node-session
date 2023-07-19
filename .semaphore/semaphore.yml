@@ -15,7 +15,7 @@ blocks:
           commands:
             - checkout
             - echo $DOCKER_PASSWORD | docker login --username "$DOCKER_USERNAME" --password-stdin
-            - docker build -f .docker/Dockerfile -t bc-msh-node-session .
+            - docker build -f ./resource/docker/Dockerfile -t bc-msh-node-session .
             - docker save -o bc-msh-node-session.tar bc-msh-node-session
             - cache store bc-msh-node-session-docker-image-$SEMAPHORE_GIT_SHA bc-msh-node-session.tar
 

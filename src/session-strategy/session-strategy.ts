@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type CreateSessionOptions = { defaultValue?: { [k: string]: any } }
 
 export interface SessionStrategy {
