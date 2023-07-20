@@ -1,5 +1,6 @@
 import fp from 'fastify-plugin'
-import { SessionStrategy } from 'src/session-strategy/session-strategy'
+
+import { SessionStrategy } from '#/session-strategy/session-strategy'
 
 export class FastifyHelper {
 	protected readonly _sessionStrategy: SessionStrategy
@@ -20,6 +21,7 @@ export class FastifyHelper {
 		this._sessionStrategy = sessionStrategy
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	protected _plugin(fastify: any, opts: any, next: () => void): void {
 		const defaults = opts.defaults || {}
 		const hook = opts.hook || 'onRequest'
@@ -28,6 +30,7 @@ export class FastifyHelper {
 			fastify.log.error(`${hook} is not a valid fastify hook. Please use one of the following ${this.validHooks}`)
 		}
 
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		fastify.addHook('onRequest', (_req: any, _res: any, done: () => void) => {
 			this._sessionStrategy.createSession(() => {
 				done()
@@ -36,6 +39,7 @@ export class FastifyHelper {
 		next()
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	beecodeSessionContextPluginFactory(): any {
 		return fp(this._plugin.bind(this), {
 			fastify: '3.x',
