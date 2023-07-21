@@ -1,7 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import fastAls from 'fast-als'
-import { CreateSessionOptions, SessionStrategy } from 'src/session-strategy/session-strategy'
+
+import { CreateSessionOptions, SessionStrategy } from '#/session-strategy/session-strategy.js'
 
 export class FastAlsStrategy implements SessionStrategy {
 	clear(key: string): void {
