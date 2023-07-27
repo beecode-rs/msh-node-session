@@ -1,6 +1,5 @@
 import fp from 'fastify-plugin'
-
-import { SessionStrategy } from '#/session-strategy/session-strategy.js'
+import { SessionStrategy } from 'src/session-strategy/session-strategy'
 
 export class FastifyHelper {
 	protected readonly _sessionStrategy: SessionStrategy
