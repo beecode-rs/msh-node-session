@@ -9,6 +9,7 @@ export class NodeSessionUtil {
 		this._strategy = sessionStrategy
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	createAsyncSession<T = any>(callback: () => Promise<T>): Promise<T> {
 		return new Promise((resolve, reject) => {
 			this._strategy.createSession(() => {
