@@ -1,0 +1,4152 @@
+{
+	"id": 0,
+	"name": "@beecode/msh-node-session",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 21,
+			"name": "helpers/express-cls-hooked-helper",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 22,
+					"name": "ExpressClsHookedHelper",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 23,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-cls-hooked-helper.ts",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+								}
+							],
+							"signatures": [
+								{
+									"id": 24,
+									"name": "new ExpressClsHookedHelper",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/express-cls-hooked-helper.ts",
+											"line": 8,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+										}
+									],
+									"parameters": [
+										{
+											"id": 25,
+											"name": "params",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 26,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 27,
+															"name": "clsHookedStrategy",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "helpers/express-cls-hooked-helper.ts",
+																	"line": 8,
+																	"character": 23,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": 87,
+																"name": "ClsHookedStrategy",
+																"package": "@beecode/msh-node-session"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																27
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "helpers/express-cls-hooked-helper.ts",
+															"line": 8,
+															"character": 21,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 22,
+										"name": "ExpressClsHookedHelper",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 28,
+							"name": "_clsHookedStrategy",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "helpers/express-cls-hooked-helper.ts",
+									"line": 6,
+									"character": 20,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L6"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 87,
+								"name": "ClsHookedStrategy",
+								"package": "@beecode/msh-node-session"
+							}
+						},
+						{
+							"id": 29,
+							"name": "expressMiddleware",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-cls-hooked-helper.ts",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L13"
+								}
+							],
+							"signatures": [
+								{
+									"id": 30,
+									"name": "expressMiddleware",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/express-cls-hooked-helper.ts",
+											"line": 13,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L13"
+										}
+									],
+									"parameters": [
+										{
+											"id": 31,
+											"name": "_req",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Request"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/express-serve-static-core/index.d.ts",
+															"qualifiedName": "ParamsDictionary"
+														},
+														"name": "ParamsDictionary",
+														"package": "@types/express-serve-static-core"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/qs/index.d.ts",
+															"qualifiedName": "QueryString.ParsedQs"
+														},
+														"name": "ParsedQs",
+														"package": "@types/qs",
+														"qualifiedName": "QueryString.ParsedQs"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Request",
+												"package": "@types/express",
+												"qualifiedName": "e.Request"
+											}
+										},
+										{
+											"id": 32,
+											"name": "_res",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Response"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Response",
+												"package": "@types/express",
+												"qualifiedName": "e.Response"
+											}
+										},
+										{
+											"id": 33,
+											"name": "next",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.NextFunction"
+												},
+												"name": "NextFunction",
+												"package": "@types/express",
+												"qualifiedName": "e.NextFunction"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 34,
+							"name": "expressMiddlewareBindEmitter",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-cls-hooked-helper.ts",
+									"line": 17,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 35,
+									"name": "expressMiddlewareBindEmitter",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/express-cls-hooked-helper.ts",
+											"line": 17,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L17"
+										}
+									],
+									"parameters": [
+										{
+											"id": 36,
+											"name": "req",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Request"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/express-serve-static-core/index.d.ts",
+															"qualifiedName": "ParamsDictionary"
+														},
+														"name": "ParamsDictionary",
+														"package": "@types/express-serve-static-core"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/qs/index.d.ts",
+															"qualifiedName": "QueryString.ParsedQs"
+														},
+														"name": "ParsedQs",
+														"package": "@types/qs",
+														"qualifiedName": "QueryString.ParsedQs"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Request",
+												"package": "@types/express",
+												"qualifiedName": "e.Request"
+											}
+										},
+										{
+											"id": 37,
+											"name": "res",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Response"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Response",
+												"package": "@types/express",
+												"qualifiedName": "e.Response"
+											}
+										},
+										{
+											"id": 38,
+											"name": "next",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.NextFunction"
+												},
+												"name": "NextFunction",
+												"package": "@types/express",
+												"qualifiedName": "e.NextFunction"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								23
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								28
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								29,
+								34
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/express-cls-hooked-helper.ts",
+							"line": 5,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L5"
+						}
+					]
+				},
+				{
+					"id": 39,
+					"name": "expressClsHookedHelperFactory",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "helpers/express-cls-hooked-helper.ts",
+							"line": 24,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+						}
+					],
+					"signatures": [
+						{
+							"id": 40,
+							"name": "expressClsHookedHelperFactory",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-cls-hooked-helper.ts",
+									"line": 24,
+									"character": 45,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+								}
+							],
+							"parameters": [
+								{
+									"id": 41,
+									"name": "params",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 42,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 43,
+													"name": "clsHookedStrategy",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "helpers/express-cls-hooked-helper.ts",
+															"line": 24,
+															"character": 56,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 87,
+														"name": "ClsHookedStrategy",
+														"package": "@beecode/msh-node-session"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														43
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "helpers/express-cls-hooked-helper.ts",
+													"line": 24,
+													"character": 54,
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 22,
+								"name": "ExpressClsHookedHelper",
+								"package": "@beecode/msh-node-session"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						22
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						39
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "helpers/express-cls-hooked-helper.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 44,
+			"name": "helpers/express-fast-als-helper",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 45,
+					"name": "ExpressFastAlsHelper",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 46,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-fast-als-helper.ts",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+								}
+							],
+							"signatures": [
+								{
+									"id": 47,
+									"name": "new ExpressFastAlsHelper",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/express-fast-als-helper.ts",
+											"line": 8,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+										}
+									],
+									"parameters": [
+										{
+											"id": 48,
+											"name": "params",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 49,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 50,
+															"name": "fastAlsStrategy",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "helpers/express-fast-als-helper.ts",
+																	"line": 8,
+																	"character": 23,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": 117,
+																"name": "FastAlsStrategy",
+																"package": "@beecode/msh-node-session"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																50
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "helpers/express-fast-als-helper.ts",
+															"line": 8,
+															"character": 21,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 45,
+										"name": "ExpressFastAlsHelper",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 51,
+							"name": "_fastAlsStrategy",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "helpers/express-fast-als-helper.ts",
+									"line": 6,
+									"character": 20,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L6"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 117,
+								"name": "FastAlsStrategy",
+								"package": "@beecode/msh-node-session"
+							}
+						},
+						{
+							"id": 52,
+							"name": "expressMiddleware",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-fast-als-helper.ts",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L13"
+								}
+							],
+							"signatures": [
+								{
+									"id": 53,
+									"name": "expressMiddleware",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/express-fast-als-helper.ts",
+											"line": 13,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L13"
+										}
+									],
+									"parameters": [
+										{
+											"id": 54,
+											"name": "_req",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Request"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/express-serve-static-core/index.d.ts",
+															"qualifiedName": "ParamsDictionary"
+														},
+														"name": "ParamsDictionary",
+														"package": "@types/express-serve-static-core"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/@types/qs/index.d.ts",
+															"qualifiedName": "QueryString.ParsedQs"
+														},
+														"name": "ParsedQs",
+														"package": "@types/qs",
+														"qualifiedName": "QueryString.ParsedQs"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Request",
+												"package": "@types/express",
+												"qualifiedName": "e.Request"
+											}
+										},
+										{
+											"id": 55,
+											"name": "_res",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.Response"
+												},
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Record"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "intrinsic",
+																"name": "any"
+															}
+														],
+														"name": "Record",
+														"package": "typescript"
+													}
+												],
+												"name": "Response",
+												"package": "@types/express",
+												"qualifiedName": "e.Response"
+											}
+										},
+										{
+											"id": 56,
+											"name": "next",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/express/index.d.ts",
+													"qualifiedName": "e.NextFunction"
+												},
+												"name": "NextFunction",
+												"package": "@types/express",
+												"qualifiedName": "e.NextFunction"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								46
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								51
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								52
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/express-fast-als-helper.ts",
+							"line": 5,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L5"
+						}
+					]
+				},
+				{
+					"id": 57,
+					"name": "expressFastAlsHelperFactory",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "helpers/express-fast-als-helper.ts",
+							"line": 18,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+						}
+					],
+					"signatures": [
+						{
+							"id": 58,
+							"name": "expressFastAlsHelperFactory",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/express-fast-als-helper.ts",
+									"line": 18,
+									"character": 43,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+								}
+							],
+							"parameters": [
+								{
+									"id": 59,
+									"name": "params",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 60,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 61,
+													"name": "fastAlsStrategy",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "helpers/express-fast-als-helper.ts",
+															"line": 18,
+															"character": 54,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 117,
+														"name": "FastAlsStrategy",
+														"package": "@beecode/msh-node-session"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														61
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "helpers/express-fast-als-helper.ts",
+													"line": 18,
+													"character": 52,
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 45,
+								"name": "ExpressFastAlsHelper",
+								"package": "@beecode/msh-node-session"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						45
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						57
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "helpers/express-fast-als-helper.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 62,
+			"name": "helpers/fastify-helper",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 63,
+					"name": "FastifyHelper",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 64,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 19,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+								}
+							],
+							"signatures": [
+								{
+									"id": 65,
+									"name": "new FastifyHelper",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/fastify-helper.ts",
+											"line": 19,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+										}
+									],
+									"parameters": [
+										{
+											"id": 66,
+											"name": "params",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 67,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 68,
+															"name": "sessionStrategy",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "helpers/fastify-helper.ts",
+																	"line": 19,
+																	"character": 23,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": 145,
+																"name": "SessionStrategy",
+																"package": "@beecode/msh-node-session"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																68
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "helpers/fastify-helper.ts",
+															"line": 19,
+															"character": 21,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 63,
+										"name": "FastifyHelper",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 69,
+							"name": "_sessionStrategy",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 6,
+									"character": 20,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L6"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 145,
+								"name": "SessionStrategy",
+								"package": "@beecode/msh-node-session"
+							}
+						},
+						{
+							"id": 70,
+							"name": "validHooks",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 8,
+									"character": 10,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L8"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 71,
+							"name": "_plugin",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 25,
+									"character": 11,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+								}
+							],
+							"signatures": [
+								{
+									"id": 72,
+									"name": "_plugin",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/fastify-helper.ts",
+											"line": 25,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+										}
+									],
+									"parameters": [
+										{
+											"id": 73,
+											"name": "fastify",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 74,
+											"name": "opts",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 75,
+											"name": "next",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 76,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "helpers/fastify-helper.ts",
+															"line": 25,
+															"character": 50,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+														}
+													],
+													"signatures": [
+														{
+															"id": 77,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "helpers/fastify-helper.ts",
+																	"line": 25,
+																	"character": 50,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 78,
+							"name": "beecodeSessionContextPluginFactory",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 43,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L43"
+								}
+							],
+							"signatures": [
+								{
+									"id": 79,
+									"name": "beecodeSessionContextPluginFactory",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "helpers/fastify-helper.ts",
+											"line": 43,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L43"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								64
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								69,
+								70
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								71,
+								78
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "helpers/fastify-helper.ts",
+							"line": 5,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L5"
+						}
+					]
+				},
+				{
+					"id": 80,
+					"name": "fastifyHelperFactory",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "helpers/fastify-helper.ts",
+							"line": 51,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+						}
+					],
+					"signatures": [
+						{
+							"id": 81,
+							"name": "fastifyHelperFactory",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "helpers/fastify-helper.ts",
+									"line": 51,
+									"character": 36,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+								}
+							],
+							"parameters": [
+								{
+									"id": 82,
+									"name": "params",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 83,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 84,
+													"name": "sessionStrategy",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "helpers/fastify-helper.ts",
+															"line": 51,
+															"character": 47,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": 145,
+														"name": "SessionStrategy",
+														"package": "@beecode/msh-node-session"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														84
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "helpers/fastify-helper.ts",
+													"line": 51,
+													"character": 45,
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 63,
+								"name": "FastifyHelper",
+								"package": "@beecode/msh-node-session"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						63
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						80
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "helpers/fastify-helper.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "node-session-util",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "NodeSessionUtil",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 4,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node-session-util.ts",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+								}
+							],
+							"signatures": [
+								{
+									"id": 5,
+									"name": "new NodeSessionUtil",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "node-session-util.ts",
+											"line": 7,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+										}
+									],
+									"parameters": [
+										{
+											"id": 6,
+											"name": "props",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 7,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 8,
+															"name": "sessionStrategy",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node-session-util.ts",
+																	"line": 7,
+																	"character": 23,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": 145,
+																"name": "SessionStrategy",
+																"package": "@beecode/msh-node-session"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																8
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node-session-util.ts",
+															"line": 7,
+															"character": 21,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 3,
+										"name": "NodeSessionUtil",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 9,
+							"name": "_strategy",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "node-session-util.ts",
+									"line": 5,
+									"character": 20,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L5"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 145,
+								"name": "SessionStrategy",
+								"package": "@beecode/msh-node-session"
+							}
+						},
+						{
+							"id": 10,
+							"name": "createAsyncSession",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node-session-util.ts",
+									"line": 13,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+								}
+							],
+							"signatures": [
+								{
+									"id": 11,
+									"name": "createAsyncSession",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "node-session-util.ts",
+											"line": 13,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 12,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {},
+											"default": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 13,
+											"name": "callback",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 14,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "node-session-util.ts",
+															"line": 13,
+															"character": 39,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+														}
+													],
+													"signatures": [
+														{
+															"id": 15,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "node-session-util.ts",
+																	"line": 13,
+																	"character": 39,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+																	"qualifiedName": "Promise"
+																},
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"target": -1,
+																		"name": "T",
+																		"refersToTypeParameter": true
+																	}
+																],
+																"name": "Promise",
+																"package": "typescript"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Promise"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 16,
+							"name": "createSession",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "node-session-util.ts",
+									"line": 21,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+								}
+							],
+							"signatures": [
+								{
+									"id": 17,
+									"name": "createSession",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "node-session-util.ts",
+											"line": 21,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+										}
+									],
+									"parameters": [
+										{
+											"id": 18,
+											"name": "callback",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 19,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "node-session-util.ts",
+															"line": 21,
+															"character": 25,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+														}
+													],
+													"signatures": [
+														{
+															"id": 20,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "node-session-util.ts",
+																	"line": 21,
+																	"character": 25,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								4
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								9
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								10,
+								16
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "node-session-util.ts",
+							"line": 4,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L4"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						3
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "node-session-util.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "node-session-util.test",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "node-session-util.test.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.test.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 85,
+			"name": "session-strategy/cls-hooked-strategy",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 87,
+					"name": "ClsHookedStrategy",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 88,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 15,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+								}
+							],
+							"signatures": [
+								{
+									"id": 89,
+									"name": "new ClsHookedStrategy",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 15,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+										}
+									],
+									"parameters": [
+										{
+											"id": 90,
+											"name": "params",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 91,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 92,
+															"name": "nameSpaceId",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "session-strategy/cls-hooked-strategy.ts",
+																	"line": 15,
+																	"character": 24,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																92
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "session-strategy/cls-hooked-strategy.ts",
+															"line": 15,
+															"character": 22,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 87,
+										"name": "ClsHookedStrategy",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 93,
+							"name": "_ns",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 8,
+									"character": 20,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L8"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../../node_modules/@types/cls-hooked/index.d.ts",
+									"qualifiedName": "Namespace"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Record"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Record",
+										"package": "typescript"
+									}
+								],
+								"name": "Namespace",
+								"package": "@types/cls-hooked"
+							}
+						},
+						{
+							"id": 94,
+							"name": "NS",
+							"variant": "declaration",
+							"kind": 262144,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 11,
+									"character": 5,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L11"
+								}
+							],
+							"getSignature": {
+								"id": 95,
+								"name": "NS",
+								"variant": "signature",
+								"kind": 524288,
+								"flags": {},
+								"sources": [
+									{
+										"fileName": "session-strategy/cls-hooked-strategy.ts",
+										"line": 11,
+										"character": 1,
+										"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L11"
+									}
+								],
+								"type": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../../node_modules/@types/cls-hooked/index.d.ts",
+										"qualifiedName": "Namespace"
+									},
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": {
+												"sourceFileName": "../../node_modules/typescript/lib/lib.es5.d.ts",
+												"qualifiedName": "Record"
+											},
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "string"
+												},
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "Record",
+											"package": "typescript"
+										}
+									],
+									"name": "Namespace",
+									"package": "@types/cls-hooked"
+								}
+							}
+						},
+						{
+							"id": 114,
+							"name": "_throwErrorIfInactiveContext",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 44,
+									"character": 11,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L44"
+								}
+							],
+							"signatures": [
+								{
+									"id": 115,
+									"name": "_throwErrorIfInactiveContext",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 44,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 105,
+							"name": "clear",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 31,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 106,
+									"name": "clear",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 31,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L31"
+										}
+									],
+									"parameters": [
+										{
+											"id": 107,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 156,
+										"name": "SessionStrategy.clear"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 155,
+								"name": "SessionStrategy.clear"
+							}
+						},
+						{
+							"id": 108,
+							"name": "createSession",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 36,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+								}
+							],
+							"signatures": [
+								{
+									"id": 109,
+									"name": "createSession",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 36,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+										}
+									],
+									"parameters": [
+										{
+											"id": 110,
+											"name": "callback",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 111,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "session-strategy/cls-hooked-strategy.ts",
+															"line": 36,
+															"character": 25,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+														}
+													],
+													"signatures": [
+														{
+															"id": 112,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "session-strategy/cls-hooked-strategy.ts",
+																	"line": 36,
+																	"character": 25,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 113,
+											"name": "options",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"target": 139,
+												"name": "CreateSessionOptions",
+												"package": "@beecode/msh-node-session"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 159,
+										"name": "SessionStrategy.createSession"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 158,
+								"name": "SessionStrategy.createSession"
+							}
+						},
+						{
+							"id": 96,
+							"name": "get",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 20,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L20"
+								}
+							],
+							"signatures": [
+								{
+									"id": 97,
+									"name": "get",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 20,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L20"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 98,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 99,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										]
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 147,
+										"name": "SessionStrategy.get"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 146,
+								"name": "SessionStrategy.get"
+							}
+						},
+						{
+							"id": 100,
+							"name": "set",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/cls-hooked-strategy.ts",
+									"line": 26,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L26"
+								}
+							],
+							"signatures": [
+								{
+									"id": 101,
+									"name": "set",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/cls-hooked-strategy.ts",
+											"line": 26,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L26"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 102,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 103,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 104,
+											"name": "value",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 151,
+										"name": "SessionStrategy.set"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 150,
+								"name": "SessionStrategy.set"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								88
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								93
+							]
+						},
+						{
+							"title": "Accessors",
+							"children": [
+								94
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								114,
+								105,
+								108,
+								96,
+								100
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "session-strategy/cls-hooked-strategy.ts",
+							"line": 7,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L7"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": 145,
+							"name": "SessionStrategy",
+							"package": "@beecode/msh-node-session"
+						}
+					]
+				},
+				{
+					"id": 86,
+					"name": "_defaultNameSpaceId",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "session-strategy/cls-hooked-strategy.ts",
+							"line": 5,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L5"
+						}
+					],
+					"type": {
+						"type": "literal",
+						"value": "node-session-context-id-89a2af34c0a3f"
+					},
+					"defaultValue": "'node-session-context-id-89a2af34c0a3f'"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						87
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						86
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "session-strategy/cls-hooked-strategy.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 116,
+			"name": "session-strategy/fast-als-strategy",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 117,
+					"name": "FastAlsStrategy",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 118,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"signatures": [
+								{
+									"id": 119,
+									"name": "new FastAlsStrategy",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 117,
+										"name": "FastAlsStrategy",
+										"package": "@beecode/msh-node-session"
+									}
+								}
+							]
+						},
+						{
+							"id": 120,
+							"name": "clear",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/fast-als-strategy.ts",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L8"
+								}
+							],
+							"signatures": [
+								{
+									"id": 121,
+									"name": "clear",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/fast-als-strategy.ts",
+											"line": 8,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L8"
+										}
+									],
+									"parameters": [
+										{
+											"id": 122,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 156,
+										"name": "SessionStrategy.clear"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 155,
+								"name": "SessionStrategy.clear"
+							}
+						},
+						{
+							"id": 123,
+							"name": "createSession",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/fast-als-strategy.ts",
+									"line": 12,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 124,
+									"name": "createSession",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/fast-als-strategy.ts",
+											"line": 12,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+										}
+									],
+									"parameters": [
+										{
+											"id": 125,
+											"name": "callback",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 126,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "session-strategy/fast-als-strategy.ts",
+															"line": 12,
+															"character": 25,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+														}
+													],
+													"signatures": [
+														{
+															"id": 127,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "session-strategy/fast-als-strategy.ts",
+																	"line": 12,
+																	"character": 25,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 128,
+											"name": "options",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"target": 139,
+												"name": "CreateSessionOptions",
+												"package": "@beecode/msh-node-session"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 159,
+										"name": "SessionStrategy.createSession"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 158,
+								"name": "SessionStrategy.createSession"
+							}
+						},
+						{
+							"id": 129,
+							"name": "get",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/fast-als-strategy.ts",
+									"line": 19,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L19"
+								}
+							],
+							"signatures": [
+								{
+									"id": 130,
+									"name": "get",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/fast-als-strategy.ts",
+											"line": 19,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L19"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 131,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 132,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										]
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 147,
+										"name": "SessionStrategy.get"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 146,
+								"name": "SessionStrategy.get"
+							}
+						},
+						{
+							"id": 133,
+							"name": "set",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/fast-als-strategy.ts",
+									"line": 23,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 134,
+									"name": "set",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/fast-als-strategy.ts",
+											"line": 23,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L23"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 135,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 136,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 137,
+											"name": "value",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": 151,
+										"name": "SessionStrategy.set"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": 150,
+								"name": "SessionStrategy.set"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								118
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								120,
+								123,
+								129,
+								133
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "session-strategy/fast-als-strategy.ts",
+							"line": 7,
+							"character": 13,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L7"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": 145,
+							"name": "SessionStrategy",
+							"package": "@beecode/msh-node-session"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						117
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "session-strategy/fast-als-strategy.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 138,
+			"name": "session-strategy/session-strategy",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 145,
+					"name": "SessionStrategy",
+					"variant": "declaration",
+					"kind": 256,
+					"flags": {},
+					"children": [
+						{
+							"id": 155,
+							"name": "clear",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/session-strategy.ts",
+									"line": 7,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L7"
+								}
+							],
+							"signatures": [
+								{
+									"id": 156,
+									"name": "clear",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/session-strategy.ts",
+											"line": 7,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L7"
+										}
+									],
+									"parameters": [
+										{
+											"id": 157,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 158,
+							"name": "createSession",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/session-strategy.ts",
+									"line": 8,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+								}
+							],
+							"signatures": [
+								{
+									"id": 159,
+									"name": "createSession",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/session-strategy.ts",
+											"line": 8,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+										}
+									],
+									"parameters": [
+										{
+											"id": 160,
+											"name": "callback",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 161,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "session-strategy/session-strategy.ts",
+															"line": 8,
+															"character": 25,
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+														}
+													],
+													"signatures": [
+														{
+															"id": 162,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "session-strategy/session-strategy.ts",
+																	"line": 8,
+																	"character": 25,
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 163,
+											"name": "options",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"target": 139,
+												"name": "CreateSessionOptions",
+												"package": "@beecode/msh-node-session"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 146,
+							"name": "get",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/session-strategy.ts",
+									"line": 5,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L5"
+								}
+							],
+							"signatures": [
+								{
+									"id": 147,
+									"name": "get",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/session-strategy.ts",
+											"line": 5,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L5"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 148,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 149,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"id": 150,
+							"name": "set",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "session-strategy/session-strategy.ts",
+									"line": 6,
+									"character": 1,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L6"
+								}
+							],
+							"signatures": [
+								{
+									"id": 151,
+									"name": "set",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "session-strategy/session-strategy.ts",
+											"line": 6,
+											"character": 1,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L6"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 152,
+											"name": "T",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 153,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 154,
+											"name": "value",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": -1,
+												"name": "T",
+												"refersToTypeParameter": true
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"children": [
+								155,
+								158,
+								146,
+								150
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "session-strategy/session-strategy.ts",
+							"line": 4,
+							"character": 17,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L4"
+						}
+					],
+					"implementedBy": [
+						{
+							"type": "reference",
+							"target": 87,
+							"name": "ClsHookedStrategy"
+						},
+						{
+							"type": "reference",
+							"target": 117,
+							"name": "FastAlsStrategy"
+						}
+					]
+				},
+				{
+					"id": 139,
+					"name": "CreateSessionOptions",
+					"variant": "declaration",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "session-strategy/session-strategy.ts",
+							"line": 2,
+							"character": 12,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 140,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 141,
+									"name": "defaultValue",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "session-strategy/session-strategy.ts",
+											"line": 2,
+											"character": 37,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 142,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "session-strategy/session-strategy.ts",
+													"line": 2,
+													"character": 52,
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+												}
+											],
+											"indexSignature": {
+												"id": 143,
+												"name": "__index",
+												"variant": "signature",
+												"kind": 8192,
+												"flags": {},
+												"sources": [
+													{
+														"fileName": "session-strategy/session-strategy.ts",
+														"line": 2,
+														"character": 54,
+														"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+													}
+												],
+												"parameters": [
+													{
+														"id": 144,
+														"name": "k",
+														"variant": "param",
+														"kind": 32768,
+														"flags": {},
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												],
+												"type": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										141
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "session-strategy/session-strategy.ts",
+									"line": 2,
+									"character": 35,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						145
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						139
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "session-strategy/session-strategy.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L1"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"children": [
+				21,
+				44,
+				62,
+				2,
+				1,
+				85,
+				116,
+				138
+			]
+		}
+	],
+	"packageName": "@beecode/msh-node-session",
+	"symbolIdMap": {
+		"1": {
+			"sourceFileName": "src/node-session-util.test.ts",
+			"qualifiedName": ""
+		},
+		"2": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": ""
+		},
+		"3": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil"
+		},
+		"4": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil.__constructor"
+		},
+		"5": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil"
+		},
+		"6": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "props"
+		},
+		"7": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type"
+		},
+		"8": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type.sessionStrategy"
+		},
+		"9": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil._strategy"
+		},
+		"10": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil.createAsyncSession"
+		},
+		"11": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil.createAsyncSession"
+		},
+		"12": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "T"
+		},
+		"13": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "callback"
+		},
+		"14": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type"
+		},
+		"15": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type"
+		},
+		"16": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil.createSession"
+		},
+		"17": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "NodeSessionUtil.createSession"
+		},
+		"18": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "callback"
+		},
+		"19": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type"
+		},
+		"20": {
+			"sourceFileName": "src/node-session-util.ts",
+			"qualifiedName": "__type"
+		},
+		"21": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": ""
+		},
+		"22": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper"
+		},
+		"23": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.__constructor"
+		},
+		"24": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper"
+		},
+		"25": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "params"
+		},
+		"26": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"27": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "__type.clsHookedStrategy"
+		},
+		"28": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper._clsHookedStrategy"
+		},
+		"29": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddleware"
+		},
+		"30": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddleware"
+		},
+		"31": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "_req"
+		},
+		"32": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "_res"
+		},
+		"33": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "next"
+		},
+		"34": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddlewareBindEmitter"
+		},
+		"35": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddlewareBindEmitter"
+		},
+		"36": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "req"
+		},
+		"37": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "res"
+		},
+		"38": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "next"
+		},
+		"39": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "expressClsHookedHelperFactory"
+		},
+		"40": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "expressClsHookedHelperFactory"
+		},
+		"41": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "params"
+		},
+		"42": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"43": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "__type.clsHookedStrategy"
+		},
+		"44": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": ""
+		},
+		"45": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper"
+		},
+		"46": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper.__constructor"
+		},
+		"47": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper"
+		},
+		"48": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "params"
+		},
+		"49": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"50": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "__type.fastAlsStrategy"
+		},
+		"51": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper._fastAlsStrategy"
+		},
+		"52": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper.expressMiddleware"
+		},
+		"53": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper.expressMiddleware"
+		},
+		"54": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "_req"
+		},
+		"55": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "_res"
+		},
+		"56": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "next"
+		},
+		"57": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "expressFastAlsHelperFactory"
+		},
+		"58": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "expressFastAlsHelperFactory"
+		},
+		"59": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "params"
+		},
+		"60": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"61": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "__type.fastAlsStrategy"
+		},
+		"62": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": ""
+		},
+		"63": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper"
+		},
+		"64": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper.__constructor"
+		},
+		"65": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper"
+		},
+		"66": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "params"
+		},
+		"67": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"68": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type.sessionStrategy"
+		},
+		"69": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper._sessionStrategy"
+		},
+		"70": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper.validHooks"
+		},
+		"71": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper._plugin"
+		},
+		"72": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper._plugin"
+		},
+		"73": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "fastify"
+		},
+		"74": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "opts"
+		},
+		"75": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "next"
+		},
+		"76": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"77": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"78": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper.beecodeSessionContextPluginFactory"
+		},
+		"79": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper.beecodeSessionContextPluginFactory"
+		},
+		"80": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "fastifyHelperFactory"
+		},
+		"81": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "fastifyHelperFactory"
+		},
+		"82": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "params"
+		},
+		"83": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type"
+		},
+		"84": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "__type.sessionStrategy"
+		},
+		"85": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": ""
+		},
+		"86": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "_defaultNameSpaceId"
+		},
+		"87": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy"
+		},
+		"88": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.__constructor"
+		},
+		"89": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy"
+		},
+		"90": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "params"
+		},
+		"91": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"92": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "__type.nameSpaceId"
+		},
+		"93": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy._ns"
+		},
+		"94": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.NS"
+		},
+		"95": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.NS"
+		},
+		"96": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.get"
+		},
+		"97": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.get"
+		},
+		"98": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"99": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"100": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.set"
+		},
+		"101": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.set"
+		},
+		"102": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"103": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"104": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "value"
+		},
+		"105": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.clear"
+		},
+		"106": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.clear"
+		},
+		"107": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"108": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.createSession"
+		},
+		"109": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.createSession"
+		},
+		"110": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "callback"
+		},
+		"111": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"112": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"113": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "options"
+		},
+		"114": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy._throwErrorIfInactiveContext"
+		},
+		"115": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy._throwErrorIfInactiveContext"
+		},
+		"116": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": ""
+		},
+		"117": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy"
+		},
+		"120": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.clear"
+		},
+		"121": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.clear"
+		},
+		"122": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"123": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.createSession"
+		},
+		"124": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.createSession"
+		},
+		"125": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "callback"
+		},
+		"126": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"127": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"128": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "options"
+		},
+		"129": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.get"
+		},
+		"130": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.get"
+		},
+		"131": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"132": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"133": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.set"
+		},
+		"134": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.set"
+		},
+		"135": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"136": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"137": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "value"
+		},
+		"138": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": ""
+		},
+		"139": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "CreateSessionOptions"
+		},
+		"140": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"141": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type.defaultValue"
+		},
+		"142": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"143": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type.__index"
+		},
+		"145": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy"
+		},
+		"146": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.get"
+		},
+		"147": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.get"
+		},
+		"148": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"149": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"150": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.set"
+		},
+		"151": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.set"
+		},
+		"152": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "T"
+		},
+		"153": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"154": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "value"
+		},
+		"155": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.clear"
+		},
+		"156": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.clear"
+		},
+		"157": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "key"
+		},
+		"158": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.createSession"
+		},
+		"159": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.createSession"
+		},
+		"160": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "callback"
+		},
+		"161": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"162": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "__type"
+		},
+		"163": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "options"
+		}
+	}
+}
