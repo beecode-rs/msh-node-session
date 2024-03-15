@@ -2,7 +2,7 @@
 // @ts-expect-error
 import fastAls from 'fast-als'
 
-import { CreateSessionOptions, SessionStrategy } from '#/session-strategy/session-strategy'
+import { CreateSessionOptions, SessionStrategy } from '#src/session-strategy/session-strategy'
 
 export class FastAlsStrategy implements SessionStrategy {
 	clear(key: string): void {
