@@ -15,7 +15,7 @@ blocks:
           commands:
             - checkout
             - echo $DOCKER_PASSWORD | docker login --username "$DOCKER_USERNAME" --password-stdin
-            - docker build -f .docker/Dockerfile -t bc-msh-node-session .
+            - docker build -f ./resource/docker/Dockerfile -t bc-msh-node-session .
             - docker save -o bc-msh-node-session.tar bc-msh-node-session
             - cache store bc-msh-node-session-docker-image-$SEMAPHORE_GIT_SHA bc-msh-node-session.tar
 
@@ -29,7 +29,7 @@ blocks:
             - checkout
             - cache restore bc-msh-node-session-docker-image-$SEMAPHORE_GIT_SHA
             - docker load -i bc-msh-node-session.tar
-            - docker run --rm -e CODECOV_TOKEN bc-msh-node-session sh -c 'npm run test:unit:coverage && npm run test:unit:coverage:publish'
+            - docker run --rm -e CODECOV_TOKEN bc-msh-node-session sh -c 'npm run test-coverage-unit && npm run test-coverage-unit-publish'
 
   - name: Bump Version
     task:
@@ -43,7 +43,7 @@ blocks:
             - docker load -i bc-msh-node-session.tar
             - touch version.txt
             - sudo chown -R packer:packer version.txt
-            - docker run --rm -v ./version.txt:/usr/app/version.txt -e GH_TOKEN -e NPM_TOKEN -e GH_USER -e CI bc-msh-node-session npm run semantic-release
+            - docker run --rm -v ./version.txt:/usr/app/version.txt -e GH_TOKEN -e NPM_TOKEN -e GH_USER -e CI bc-msh-node-session npm run npm-semantic-release
             - cat version.txt
             - cache store bc-msh-node-session-version-$SEMAPHORE_GIT_SHA version.txt
     skip:
