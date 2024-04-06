@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L5)
+[session-strategy/cls-hooked-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L5)

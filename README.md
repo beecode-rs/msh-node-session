@@ -14,6 +14,12 @@ This project is intended to be used in typescript project.
 - [Install](#install)
 - [Diagram](#diagram)
 - [Usage](#usage)
+  * [Util implementation example](#util-implementation-example)
+    + [Class extension](#class-extension)
+  * [Fastify middleware example](#fastify-middleware-example)
+  * [Express middleware example](#express-middleware-example)
+    + [FastAls](#fastals)
+    + [ClsHooked](#clshooked)
 
 <!-- tocstop -->
 

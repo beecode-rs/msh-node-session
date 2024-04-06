@@ -31,4 +31,4 @@
 
 #### Defined in
 
-[helpers/express-fast-als-helper.ts:18](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18)
+[helpers/express-fast-als-helper.ts:18](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L18)

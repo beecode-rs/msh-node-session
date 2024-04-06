@@ -25,7 +25,11 @@
 
 ### constructor
 
-• **new FastAlsStrategy**()
+• **new FastAlsStrategy**(): [`FastAlsStrategy`](session_strategy_fast_als_strategy.FastAlsStrategy.md)
+
+#### Returns
+
+[`FastAlsStrategy`](session_strategy_fast_als_strategy.FastAlsStrategy.md)
 
 ## Methods
 
@@ -49,7 +53,7 @@
 
 #### Defined in
 
-[session-strategy/fast-als-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L8)
+[session-strategy/fast-als-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L8)
 
 ___
 
@@ -74,13 +78,13 @@ ___
 
 #### Defined in
 
-[session-strategy/fast-als-strategy.ts:12](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12)
+[session-strategy/fast-als-strategy.ts:12](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L12)
 
 ___
 
 ### get
 
-▸ **get**<`T`\>(`key`): `undefined` \| `T`
+▸ **get**\<`T`\>(`key`): `undefined` \| `T`
 
 #### Type parameters
 
@@ -104,13 +108,13 @@ ___
 
 #### Defined in
 
-[session-strategy/fast-als-strategy.ts:19](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L19)
+[session-strategy/fast-als-strategy.ts:19](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L19)
 
 ___
 
 ### set
 
-▸ **set**<`T`\>(`key`, `value`): `void`
+▸ **set**\<`T`\>(`key`, `value`): `void`
 
 #### Type parameters
 
@@ -135,4 +139,4 @@ ___
 
 #### Defined in
 
-[session-strategy/fast-als-strategy.ts:23](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L23)
+[session-strategy/fast-als-strategy.ts:23](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L23)

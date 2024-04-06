@@ -6,21 +6,21 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 21,
+			"id": 20,
 			"name": "helpers/express-cls-hooked-helper",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 22,
+					"id": 21,
 					"name": "ExpressClsHookedHelper",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 23,
+							"id": 22,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -30,12 +30,12 @@
 									"fileName": "helpers/express-cls-hooked-helper.ts",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L8"
 								}
 							],
 							"signatures": [
 								{
-									"id": 24,
+									"id": 23,
 									"name": "new ExpressClsHookedHelper",
 									"variant": "signature",
 									"kind": 16384,
@@ -45,12 +45,12 @@
 											"fileName": "helpers/express-cls-hooked-helper.ts",
 											"line": 8,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L8"
 										}
 									],
 									"parameters": [
 										{
-											"id": 25,
+											"id": 24,
 											"name": "params",
 											"variant": "param",
 											"kind": 32768,
@@ -58,14 +58,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 26,
+													"id": 25,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 27,
+															"id": 26,
 															"name": "clsHookedStrategy",
 															"variant": "declaration",
 															"kind": 1024,
@@ -75,12 +75,12 @@
 																	"fileName": "helpers/express-cls-hooked-helper.ts",
 																	"line": 8,
 																	"character": 23,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L8"
 																}
 															],
 															"type": {
 																"type": "reference",
-																"target": 87,
+																"target": 86,
 																"name": "ClsHookedStrategy",
 																"package": "@beecode/msh-node-session"
 															}
@@ -90,7 +90,7 @@
 														{
 															"title": "Properties",
 															"children": [
-																27
+																26
 															]
 														}
 													],
@@ -99,7 +99,7 @@
 															"fileName": "helpers/express-cls-hooked-helper.ts",
 															"line": 8,
 															"character": 21,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L8"
 														}
 													]
 												}
@@ -108,7 +108,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 22,
+										"target": 21,
 										"name": "ExpressClsHookedHelper",
 										"package": "@beecode/msh-node-session"
 									}
@@ -116,7 +116,7 @@
 							]
 						},
 						{
-							"id": 28,
+							"id": 27,
 							"name": "_clsHookedStrategy",
 							"variant": "declaration",
 							"kind": 1024,
@@ -129,18 +129,18 @@
 									"fileName": "helpers/express-cls-hooked-helper.ts",
 									"line": 6,
 									"character": 20,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L6"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L6"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 87,
+								"target": 86,
 								"name": "ClsHookedStrategy",
 								"package": "@beecode/msh-node-session"
 							}
 						},
 						{
-							"id": 29,
+							"id": 28,
 							"name": "expressMiddleware",
 							"variant": "declaration",
 							"kind": 2048,
@@ -150,12 +150,12 @@
 									"fileName": "helpers/express-cls-hooked-helper.ts",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L13"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L13"
 								}
 							],
 							"signatures": [
 								{
-									"id": 30,
+									"id": 29,
 									"name": "expressMiddleware",
 									"variant": "signature",
 									"kind": 4096,
@@ -165,12 +165,12 @@
 											"fileName": "helpers/express-cls-hooked-helper.ts",
 											"line": 13,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L13"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L13"
 										}
 									],
 									"parameters": [
 										{
-											"id": 31,
+											"id": 30,
 											"name": "_req",
 											"variant": "param",
 											"kind": 32768,
@@ -235,7 +235,7 @@
 											}
 										},
 										{
-											"id": 32,
+											"id": 31,
 											"name": "_res",
 											"variant": "param",
 											"kind": 32768,
@@ -277,7 +277,7 @@
 											}
 										},
 										{
-											"id": 33,
+											"id": 32,
 											"name": "next",
 											"variant": "param",
 											"kind": 32768,
@@ -302,7 +302,7 @@
 							]
 						},
 						{
-							"id": 34,
+							"id": 33,
 							"name": "expressMiddlewareBindEmitter",
 							"variant": "declaration",
 							"kind": 2048,
@@ -312,12 +312,12 @@
 									"fileName": "helpers/express-cls-hooked-helper.ts",
 									"line": 17,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L17"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L17"
 								}
 							],
 							"signatures": [
 								{
-									"id": 35,
+									"id": 34,
 									"name": "expressMiddlewareBindEmitter",
 									"variant": "signature",
 									"kind": 4096,
@@ -327,12 +327,12 @@
 											"fileName": "helpers/express-cls-hooked-helper.ts",
 											"line": 17,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L17"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L17"
 										}
 									],
 									"parameters": [
 										{
-											"id": 36,
+											"id": 35,
 											"name": "req",
 											"variant": "param",
 											"kind": 32768,
@@ -397,7 +397,7 @@
 											}
 										},
 										{
-											"id": 37,
+											"id": 36,
 											"name": "res",
 											"variant": "param",
 											"kind": 32768,
@@ -439,7 +439,7 @@
 											}
 										},
 										{
-											"id": 38,
+											"id": 37,
 											"name": "next",
 											"variant": "param",
 											"kind": 32768,
@@ -468,20 +468,20 @@
 						{
 							"title": "Constructors",
 							"children": [
-								23
+								22
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								28
+								27
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								29,
-								34
+								28,
+								33
 							]
 						}
 					],
@@ -490,12 +490,12 @@
 							"fileName": "helpers/express-cls-hooked-helper.ts",
 							"line": 5,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L5"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L5"
 						}
 					]
 				},
 				{
-					"id": 39,
+					"id": 38,
 					"name": "expressClsHookedHelperFactory",
 					"variant": "declaration",
 					"kind": 64,
@@ -505,12 +505,12 @@
 							"fileName": "helpers/express-cls-hooked-helper.ts",
 							"line": 24,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L24"
 						}
 					],
 					"signatures": [
 						{
-							"id": 40,
+							"id": 39,
 							"name": "expressClsHookedHelperFactory",
 							"variant": "signature",
 							"kind": 4096,
@@ -520,12 +520,12 @@
 									"fileName": "helpers/express-cls-hooked-helper.ts",
 									"line": 24,
 									"character": 45,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L24"
 								}
 							],
 							"parameters": [
 								{
-									"id": 41,
+									"id": 40,
 									"name": "params",
 									"variant": "param",
 									"kind": 32768,
@@ -533,14 +533,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 42,
+											"id": 41,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 43,
+													"id": 42,
 													"name": "clsHookedStrategy",
 													"variant": "declaration",
 													"kind": 1024,
@@ -550,12 +550,12 @@
 															"fileName": "helpers/express-cls-hooked-helper.ts",
 															"line": 24,
 															"character": 56,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L24"
 														}
 													],
 													"type": {
 														"type": "reference",
-														"target": 87,
+														"target": 86,
 														"name": "ClsHookedStrategy",
 														"package": "@beecode/msh-node-session"
 													}
@@ -565,7 +565,7 @@
 												{
 													"title": "Properties",
 													"children": [
-														43
+														42
 													]
 												}
 											],
@@ -574,7 +574,7 @@
 													"fileName": "helpers/express-cls-hooked-helper.ts",
 													"line": 24,
 													"character": 54,
-													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24"
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L24"
 												}
 											]
 										}
@@ -583,7 +583,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 22,
+								"target": 21,
 								"name": "ExpressClsHookedHelper",
 								"package": "@beecode/msh-node-session"
 							}
@@ -595,13 +595,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						22
+						21
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						39
+						38
 					]
 				}
 			],
@@ -610,26 +610,26 @@
 					"fileName": "helpers/express-cls-hooked-helper.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 44,
+			"id": 43,
 			"name": "helpers/express-fast-als-helper",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 45,
+					"id": 44,
 					"name": "ExpressFastAlsHelper",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 46,
+							"id": 45,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -639,12 +639,12 @@
 									"fileName": "helpers/express-fast-als-helper.ts",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L8"
 								}
 							],
 							"signatures": [
 								{
-									"id": 47,
+									"id": 46,
 									"name": "new ExpressFastAlsHelper",
 									"variant": "signature",
 									"kind": 16384,
@@ -654,12 +654,12 @@
 											"fileName": "helpers/express-fast-als-helper.ts",
 											"line": 8,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L8"
 										}
 									],
 									"parameters": [
 										{
-											"id": 48,
+											"id": 47,
 											"name": "params",
 											"variant": "param",
 											"kind": 32768,
@@ -667,14 +667,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 49,
+													"id": 48,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 50,
+															"id": 49,
 															"name": "fastAlsStrategy",
 															"variant": "declaration",
 															"kind": 1024,
@@ -684,12 +684,12 @@
 																	"fileName": "helpers/express-fast-als-helper.ts",
 																	"line": 8,
 																	"character": 23,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L8"
 																}
 															],
 															"type": {
 																"type": "reference",
-																"target": 117,
+																"target": 116,
 																"name": "FastAlsStrategy",
 																"package": "@beecode/msh-node-session"
 															}
@@ -699,7 +699,7 @@
 														{
 															"title": "Properties",
 															"children": [
-																50
+																49
 															]
 														}
 													],
@@ -708,7 +708,7 @@
 															"fileName": "helpers/express-fast-als-helper.ts",
 															"line": 8,
 															"character": 21,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L8"
 														}
 													]
 												}
@@ -717,7 +717,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 45,
+										"target": 44,
 										"name": "ExpressFastAlsHelper",
 										"package": "@beecode/msh-node-session"
 									}
@@ -725,7 +725,7 @@
 							]
 						},
 						{
-							"id": 51,
+							"id": 50,
 							"name": "_fastAlsStrategy",
 							"variant": "declaration",
 							"kind": 1024,
@@ -738,18 +738,18 @@
 									"fileName": "helpers/express-fast-als-helper.ts",
 									"line": 6,
 									"character": 20,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L6"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L6"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 117,
+								"target": 116,
 								"name": "FastAlsStrategy",
 								"package": "@beecode/msh-node-session"
 							}
 						},
 						{
-							"id": 52,
+							"id": 51,
 							"name": "expressMiddleware",
 							"variant": "declaration",
 							"kind": 2048,
@@ -759,12 +759,12 @@
 									"fileName": "helpers/express-fast-als-helper.ts",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L13"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L13"
 								}
 							],
 							"signatures": [
 								{
-									"id": 53,
+									"id": 52,
 									"name": "expressMiddleware",
 									"variant": "signature",
 									"kind": 4096,
@@ -774,12 +774,12 @@
 											"fileName": "helpers/express-fast-als-helper.ts",
 											"line": 13,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L13"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L13"
 										}
 									],
 									"parameters": [
 										{
-											"id": 54,
+											"id": 53,
 											"name": "_req",
 											"variant": "param",
 											"kind": 32768,
@@ -844,7 +844,7 @@
 											}
 										},
 										{
-											"id": 55,
+											"id": 54,
 											"name": "_res",
 											"variant": "param",
 											"kind": 32768,
@@ -886,7 +886,7 @@
 											}
 										},
 										{
-											"id": 56,
+											"id": 55,
 											"name": "next",
 											"variant": "param",
 											"kind": 32768,
@@ -915,19 +915,19 @@
 						{
 							"title": "Constructors",
 							"children": [
-								46
+								45
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								51
+								50
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								52
+								51
 							]
 						}
 					],
@@ -936,12 +936,12 @@
 							"fileName": "helpers/express-fast-als-helper.ts",
 							"line": 5,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L5"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L5"
 						}
 					]
 				},
 				{
-					"id": 57,
+					"id": 56,
 					"name": "expressFastAlsHelperFactory",
 					"variant": "declaration",
 					"kind": 64,
@@ -951,12 +951,12 @@
 							"fileName": "helpers/express-fast-als-helper.ts",
 							"line": 18,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L18"
 						}
 					],
 					"signatures": [
 						{
-							"id": 58,
+							"id": 57,
 							"name": "expressFastAlsHelperFactory",
 							"variant": "signature",
 							"kind": 4096,
@@ -966,12 +966,12 @@
 									"fileName": "helpers/express-fast-als-helper.ts",
 									"line": 18,
 									"character": 43,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L18"
 								}
 							],
 							"parameters": [
 								{
-									"id": 59,
+									"id": 58,
 									"name": "params",
 									"variant": "param",
 									"kind": 32768,
@@ -979,14 +979,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 60,
+											"id": 59,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 61,
+													"id": 60,
 													"name": "fastAlsStrategy",
 													"variant": "declaration",
 													"kind": 1024,
@@ -996,12 +996,12 @@
 															"fileName": "helpers/express-fast-als-helper.ts",
 															"line": 18,
 															"character": 54,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L18"
 														}
 													],
 													"type": {
 														"type": "reference",
-														"target": 117,
+														"target": 116,
 														"name": "FastAlsStrategy",
 														"package": "@beecode/msh-node-session"
 													}
@@ -1011,7 +1011,7 @@
 												{
 													"title": "Properties",
 													"children": [
-														61
+														60
 													]
 												}
 											],
@@ -1020,7 +1020,7 @@
 													"fileName": "helpers/express-fast-als-helper.ts",
 													"line": 18,
 													"character": 52,
-													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L18"
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L18"
 												}
 											]
 										}
@@ -1029,7 +1029,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 45,
+								"target": 44,
 								"name": "ExpressFastAlsHelper",
 								"package": "@beecode/msh-node-session"
 							}
@@ -1041,13 +1041,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						45
+						44
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						57
+						56
 					]
 				}
 			],
@@ -1056,26 +1056,26 @@
 					"fileName": "helpers/express-fast-als-helper.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 62,
+			"id": 61,
 			"name": "helpers/fastify-helper",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 63,
+					"id": 62,
 					"name": "FastifyHelper",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 64,
+							"id": 63,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -1085,12 +1085,12 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 19,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L19"
 								}
 							],
 							"signatures": [
 								{
-									"id": 65,
+									"id": 64,
 									"name": "new FastifyHelper",
 									"variant": "signature",
 									"kind": 16384,
@@ -1100,12 +1100,12 @@
 											"fileName": "helpers/fastify-helper.ts",
 											"line": 19,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L19"
 										}
 									],
 									"parameters": [
 										{
-											"id": 66,
+											"id": 65,
 											"name": "params",
 											"variant": "param",
 											"kind": 32768,
@@ -1113,14 +1113,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 67,
+													"id": 66,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 68,
+															"id": 67,
 															"name": "sessionStrategy",
 															"variant": "declaration",
 															"kind": 1024,
@@ -1130,12 +1130,12 @@
 																	"fileName": "helpers/fastify-helper.ts",
 																	"line": 19,
 																	"character": 23,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L19"
 																}
 															],
 															"type": {
 																"type": "reference",
-																"target": 145,
+																"target": 144,
 																"name": "SessionStrategy",
 																"package": "@beecode/msh-node-session"
 															}
@@ -1145,7 +1145,7 @@
 														{
 															"title": "Properties",
 															"children": [
-																68
+																67
 															]
 														}
 													],
@@ -1154,7 +1154,7 @@
 															"fileName": "helpers/fastify-helper.ts",
 															"line": 19,
 															"character": 21,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L19"
 														}
 													]
 												}
@@ -1163,7 +1163,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 63,
+										"target": 62,
 										"name": "FastifyHelper",
 										"package": "@beecode/msh-node-session"
 									}
@@ -1171,7 +1171,7 @@
 							]
 						},
 						{
-							"id": 69,
+							"id": 68,
 							"name": "_sessionStrategy",
 							"variant": "declaration",
 							"kind": 1024,
@@ -1184,18 +1184,18 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 6,
 									"character": 20,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L6"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L6"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 145,
+								"target": 144,
 								"name": "SessionStrategy",
 								"package": "@beecode/msh-node-session"
 							}
 						},
 						{
-							"id": 70,
+							"id": 69,
 							"name": "validHooks",
 							"variant": "declaration",
 							"kind": 1024,
@@ -1207,7 +1207,7 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 8,
 									"character": 10,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L8"
 								}
 							],
 							"type": {
@@ -1220,7 +1220,7 @@
 							"defaultValue": "..."
 						},
 						{
-							"id": 71,
+							"id": 70,
 							"name": "_plugin",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1232,12 +1232,12 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 25,
 									"character": 11,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L25"
 								}
 							],
 							"signatures": [
 								{
-									"id": 72,
+									"id": 71,
 									"name": "_plugin",
 									"variant": "signature",
 									"kind": 4096,
@@ -1246,13 +1246,13 @@
 										{
 											"fileName": "helpers/fastify-helper.ts",
 											"line": 25,
-											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+											"character": 11,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L25"
 										}
 									],
 									"parameters": [
 										{
-											"id": 73,
+											"id": 72,
 											"name": "fastify",
 											"variant": "param",
 											"kind": 32768,
@@ -1263,7 +1263,7 @@
 											}
 										},
 										{
-											"id": 74,
+											"id": 73,
 											"name": "opts",
 											"variant": "param",
 											"kind": 32768,
@@ -1274,7 +1274,7 @@
 											}
 										},
 										{
-											"id": 75,
+											"id": 74,
 											"name": "next",
 											"variant": "param",
 											"kind": 32768,
@@ -1282,7 +1282,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 76,
+													"id": 75,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -1292,12 +1292,12 @@
 															"fileName": "helpers/fastify-helper.ts",
 															"line": 25,
 															"character": 50,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L25"
 														}
 													],
 													"signatures": [
 														{
-															"id": 77,
+															"id": 76,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -1307,7 +1307,7 @@
 																	"fileName": "helpers/fastify-helper.ts",
 																	"line": 25,
 																	"character": 50,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L25"
 																}
 															],
 															"type": {
@@ -1328,7 +1328,7 @@
 							]
 						},
 						{
-							"id": 78,
+							"id": 77,
 							"name": "beecodeSessionContextPluginFactory",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1338,12 +1338,12 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 43,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L43"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L43"
 								}
 							],
 							"signatures": [
 								{
-									"id": 79,
+									"id": 78,
 									"name": "beecodeSessionContextPluginFactory",
 									"variant": "signature",
 									"kind": 4096,
@@ -1353,7 +1353,7 @@
 											"fileName": "helpers/fastify-helper.ts",
 											"line": 43,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L43"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L43"
 										}
 									],
 									"type": {
@@ -1368,21 +1368,21 @@
 						{
 							"title": "Constructors",
 							"children": [
-								64
+								63
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								69,
-								70
+								68,
+								69
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								71,
-								78
+								70,
+								77
 							]
 						}
 					],
@@ -1391,12 +1391,12 @@
 							"fileName": "helpers/fastify-helper.ts",
 							"line": 5,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L5"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L5"
 						}
 					]
 				},
 				{
-					"id": 80,
+					"id": 79,
 					"name": "fastifyHelperFactory",
 					"variant": "declaration",
 					"kind": 64,
@@ -1406,12 +1406,12 @@
 							"fileName": "helpers/fastify-helper.ts",
 							"line": 51,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L51"
 						}
 					],
 					"signatures": [
 						{
-							"id": 81,
+							"id": 80,
 							"name": "fastifyHelperFactory",
 							"variant": "signature",
 							"kind": 4096,
@@ -1421,12 +1421,12 @@
 									"fileName": "helpers/fastify-helper.ts",
 									"line": 51,
 									"character": 36,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L51"
 								}
 							],
 							"parameters": [
 								{
-									"id": 82,
+									"id": 81,
 									"name": "params",
 									"variant": "param",
 									"kind": 32768,
@@ -1434,14 +1434,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 83,
+											"id": 82,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
 											"flags": {},
 											"children": [
 												{
-													"id": 84,
+													"id": 83,
 													"name": "sessionStrategy",
 													"variant": "declaration",
 													"kind": 1024,
@@ -1451,12 +1451,12 @@
 															"fileName": "helpers/fastify-helper.ts",
 															"line": 51,
 															"character": 47,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L51"
 														}
 													],
 													"type": {
 														"type": "reference",
-														"target": 145,
+														"target": 144,
 														"name": "SessionStrategy",
 														"package": "@beecode/msh-node-session"
 													}
@@ -1466,7 +1466,7 @@
 												{
 													"title": "Properties",
 													"children": [
-														84
+														83
 													]
 												}
 											],
@@ -1475,7 +1475,7 @@
 													"fileName": "helpers/fastify-helper.ts",
 													"line": 51,
 													"character": 45,
-													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51"
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L51"
 												}
 											]
 										}
@@ -1484,7 +1484,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 63,
+								"target": 62,
 								"name": "FastifyHelper",
 								"package": "@beecode/msh-node-session"
 							}
@@ -1496,13 +1496,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						63
+						62
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						80
+						79
 					]
 				}
 			],
@@ -1511,26 +1511,26 @@
 					"fileName": "helpers/fastify-helper.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 2,
+			"id": 1,
 			"name": "node-session-util",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 3,
+					"id": 2,
 					"name": "NodeSessionUtil",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 4,
+							"id": 3,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -1540,12 +1540,12 @@
 									"fileName": "node-session-util.ts",
 									"line": 7,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L7"
 								}
 							],
 							"signatures": [
 								{
-									"id": 5,
+									"id": 4,
 									"name": "new NodeSessionUtil",
 									"variant": "signature",
 									"kind": 16384,
@@ -1555,12 +1555,12 @@
 											"fileName": "node-session-util.ts",
 											"line": 7,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L7"
 										}
 									],
 									"parameters": [
 										{
-											"id": 6,
+											"id": 5,
 											"name": "props",
 											"variant": "param",
 											"kind": 32768,
@@ -1570,14 +1570,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 7,
+													"id": 6,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 8,
+															"id": 7,
 															"name": "sessionStrategy",
 															"variant": "declaration",
 															"kind": 1024,
@@ -1589,12 +1589,12 @@
 																	"fileName": "node-session-util.ts",
 																	"line": 7,
 																	"character": 23,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L7"
 																}
 															],
 															"type": {
 																"type": "reference",
-																"target": 145,
+																"target": 144,
 																"name": "SessionStrategy",
 																"package": "@beecode/msh-node-session"
 															}
@@ -1604,7 +1604,7 @@
 														{
 															"title": "Properties",
 															"children": [
-																8
+																7
 															]
 														}
 													],
@@ -1613,7 +1613,7 @@
 															"fileName": "node-session-util.ts",
 															"line": 7,
 															"character": 21,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L7"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L7"
 														}
 													]
 												}
@@ -1622,7 +1622,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 3,
+										"target": 2,
 										"name": "NodeSessionUtil",
 										"package": "@beecode/msh-node-session"
 									}
@@ -1630,7 +1630,7 @@
 							]
 						},
 						{
-							"id": 9,
+							"id": 8,
 							"name": "_strategy",
 							"variant": "declaration",
 							"kind": 1024,
@@ -1643,18 +1643,18 @@
 									"fileName": "node-session-util.ts",
 									"line": 5,
 									"character": 20,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L5"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L5"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"target": 145,
+								"target": 144,
 								"name": "SessionStrategy",
 								"package": "@beecode/msh-node-session"
 							}
 						},
 						{
-							"id": 10,
+							"id": 9,
 							"name": "createAsyncSession",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1664,12 +1664,12 @@
 									"fileName": "node-session-util.ts",
 									"line": 13,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L13"
 								}
 							],
 							"signatures": [
 								{
-									"id": 11,
+									"id": 10,
 									"name": "createAsyncSession",
 									"variant": "signature",
 									"kind": 4096,
@@ -1679,12 +1679,12 @@
 											"fileName": "node-session-util.ts",
 											"line": 13,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L13"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 12,
+											"id": 11,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -1697,7 +1697,7 @@
 									],
 									"parameters": [
 										{
-											"id": 13,
+											"id": 12,
 											"name": "callback",
 											"variant": "param",
 											"kind": 32768,
@@ -1705,7 +1705,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 14,
+													"id": 13,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -1715,12 +1715,12 @@
 															"fileName": "node-session-util.ts",
 															"line": 13,
 															"character": 39,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L13"
 														}
 													],
 													"signatures": [
 														{
-															"id": 15,
+															"id": 14,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -1730,7 +1730,7 @@
 																	"fileName": "node-session-util.ts",
 																	"line": 13,
 																	"character": 39,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L13"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L13"
 																}
 															],
 															"type": {
@@ -1742,8 +1742,9 @@
 																"typeArguments": [
 																	{
 																		"type": "reference",
-																		"target": -1,
+																		"target": 11,
 																		"name": "T",
+																		"package": "@beecode/msh-node-session",
 																		"refersToTypeParameter": true
 																	}
 																],
@@ -1765,8 +1766,9 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": -1,
+												"target": 11,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										],
@@ -1777,7 +1779,7 @@
 							]
 						},
 						{
-							"id": 16,
+							"id": 15,
 							"name": "createSession",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1787,12 +1789,12 @@
 									"fileName": "node-session-util.ts",
 									"line": 21,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L21"
 								}
 							],
 							"signatures": [
 								{
-									"id": 17,
+									"id": 16,
 									"name": "createSession",
 									"variant": "signature",
 									"kind": 4096,
@@ -1802,12 +1804,12 @@
 											"fileName": "node-session-util.ts",
 											"line": 21,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L21"
 										}
 									],
 									"parameters": [
 										{
-											"id": 18,
+											"id": 17,
 											"name": "callback",
 											"variant": "param",
 											"kind": 32768,
@@ -1815,7 +1817,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 19,
+													"id": 18,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -1825,12 +1827,12 @@
 															"fileName": "node-session-util.ts",
 															"line": 21,
 															"character": 25,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L21"
 														}
 													],
 													"signatures": [
 														{
-															"id": 20,
+															"id": 19,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -1840,7 +1842,7 @@
 																	"fileName": "node-session-util.ts",
 																	"line": 21,
 																	"character": 25,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L21"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L21"
 																}
 															],
 															"type": {
@@ -1865,20 +1867,20 @@
 						{
 							"title": "Constructors",
 							"children": [
-								4
+								3
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								9
+								8
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								10,
-								16
+								9,
+								15
 							]
 						}
 					],
@@ -1887,7 +1889,7 @@
 							"fileName": "node-session-util.ts",
 							"line": 4,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L4"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L4"
 						}
 					]
 				}
@@ -1896,7 +1898,7 @@
 				{
 					"title": "Classes",
 					"children": [
-						3
+						2
 					]
 				}
 			],
@@ -1905,41 +1907,26 @@
 					"fileName": "node-session-util.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/node-session-util.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 1,
-			"name": "node-session-util.test",
-			"variant": "declaration",
-			"kind": 2,
-			"flags": {},
-			"sources": [
-				{
-					"fileName": "node-session-util.test.ts",
-					"line": 1,
-					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/node-session-util.test.ts#L1"
-				}
-			]
-		},
-		{
-			"id": 85,
+			"id": 84,
 			"name": "session-strategy/cls-hooked-strategy",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 87,
+					"id": 86,
 					"name": "ClsHookedStrategy",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 88,
+							"id": 87,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -1949,12 +1936,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 15,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L15"
 								}
 							],
 							"signatures": [
 								{
-									"id": 89,
+									"id": 88,
 									"name": "new ClsHookedStrategy",
 									"variant": "signature",
 									"kind": 16384,
@@ -1964,12 +1951,12 @@
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 15,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L15"
 										}
 									],
 									"parameters": [
 										{
-											"id": 90,
+											"id": 89,
 											"name": "params",
 											"variant": "param",
 											"kind": 32768,
@@ -1979,14 +1966,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 91,
+													"id": 90,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
 													"flags": {},
 													"children": [
 														{
-															"id": 92,
+															"id": 91,
 															"name": "nameSpaceId",
 															"variant": "declaration",
 															"kind": 1024,
@@ -1998,7 +1985,7 @@
 																	"fileName": "session-strategy/cls-hooked-strategy.ts",
 																	"line": 15,
 																	"character": 24,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L15"
 																}
 															],
 															"type": {
@@ -2011,7 +1998,7 @@
 														{
 															"title": "Properties",
 															"children": [
-																92
+																91
 															]
 														}
 													],
@@ -2020,7 +2007,7 @@
 															"fileName": "session-strategy/cls-hooked-strategy.ts",
 															"line": 15,
 															"character": 22,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L15"
 														}
 													]
 												}
@@ -2029,7 +2016,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 87,
+										"target": 86,
 										"name": "ClsHookedStrategy",
 										"package": "@beecode/msh-node-session"
 									}
@@ -2037,7 +2024,7 @@
 							]
 						},
 						{
-							"id": 93,
+							"id": 92,
 							"name": "_ns",
 							"variant": "declaration",
 							"kind": 1024,
@@ -2050,7 +2037,7 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 8,
 									"character": 20,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L8"
 								}
 							],
 							"type": {
@@ -2085,7 +2072,7 @@
 							}
 						},
 						{
-							"id": 94,
+							"id": 93,
 							"name": "NS",
 							"variant": "declaration",
 							"kind": 262144,
@@ -2095,11 +2082,11 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 11,
 									"character": 5,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L11"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L11"
 								}
 							],
 							"getSignature": {
-								"id": 95,
+								"id": 94,
 								"name": "NS",
 								"variant": "signature",
 								"kind": 524288,
@@ -2108,8 +2095,8 @@
 									{
 										"fileName": "session-strategy/cls-hooked-strategy.ts",
 										"line": 11,
-										"character": 1,
-										"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L11"
+										"character": 5,
+										"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L11"
 									}
 								],
 								"type": {
@@ -2145,7 +2132,7 @@
 							}
 						},
 						{
-							"id": 114,
+							"id": 113,
 							"name": "_throwErrorIfInactiveContext",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2157,12 +2144,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 44,
 									"character": 11,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L44"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L44"
 								}
 							],
 							"signatures": [
 								{
-									"id": 115,
+									"id": 114,
 									"name": "_throwErrorIfInactiveContext",
 									"variant": "signature",
 									"kind": 4096,
@@ -2171,8 +2158,8 @@
 										{
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 44,
-											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L44"
+											"character": 11,
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L44"
 										}
 									],
 									"type": {
@@ -2183,7 +2170,7 @@
 							]
 						},
 						{
-							"id": 105,
+							"id": 104,
 							"name": "clear",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2193,12 +2180,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 31,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L31"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L31"
 								}
 							],
 							"signatures": [
 								{
-									"id": 106,
+									"id": 105,
 									"name": "clear",
 									"variant": "signature",
 									"kind": 4096,
@@ -2208,12 +2195,12 @@
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 31,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L31"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L31"
 										}
 									],
 									"parameters": [
 										{
-											"id": 107,
+											"id": 106,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2230,19 +2217,19 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 156,
+										"target": 155,
 										"name": "SessionStrategy.clear"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 155,
+								"target": 154,
 								"name": "SessionStrategy.clear"
 							}
 						},
 						{
-							"id": 108,
+							"id": 107,
 							"name": "createSession",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2252,12 +2239,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 36,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L36"
 								}
 							],
 							"signatures": [
 								{
-									"id": 109,
+									"id": 108,
 									"name": "createSession",
 									"variant": "signature",
 									"kind": 4096,
@@ -2267,12 +2254,12 @@
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 36,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L36"
 										}
 									],
 									"parameters": [
 										{
-											"id": 110,
+											"id": 109,
 											"name": "callback",
 											"variant": "param",
 											"kind": 32768,
@@ -2280,7 +2267,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 111,
+													"id": 110,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -2290,12 +2277,12 @@
 															"fileName": "session-strategy/cls-hooked-strategy.ts",
 															"line": 36,
 															"character": 25,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L36"
 														}
 													],
 													"signatures": [
 														{
-															"id": 112,
+															"id": 111,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -2305,7 +2292,7 @@
 																	"fileName": "session-strategy/cls-hooked-strategy.ts",
 																	"line": 36,
 																	"character": 25,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L36"
 																}
 															],
 															"type": {
@@ -2318,7 +2305,7 @@
 											}
 										},
 										{
-											"id": 113,
+											"id": 112,
 											"name": "options",
 											"variant": "param",
 											"kind": 32768,
@@ -2327,7 +2314,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 139,
+												"target": 138,
 												"name": "CreateSessionOptions",
 												"package": "@beecode/msh-node-session"
 											}
@@ -2339,19 +2326,19 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 159,
+										"target": 158,
 										"name": "SessionStrategy.createSession"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 158,
+								"target": 157,
 								"name": "SessionStrategy.createSession"
 							}
 						},
 						{
-							"id": 96,
+							"id": 95,
 							"name": "get",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2361,12 +2348,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 20,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L20"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L20"
 								}
 							],
 							"signatures": [
 								{
-									"id": 97,
+									"id": 96,
 									"name": "get",
 									"variant": "signature",
 									"kind": 4096,
@@ -2376,12 +2363,12 @@
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 20,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L20"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L20"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 98,
+											"id": 97,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -2390,7 +2377,7 @@
 									],
 									"parameters": [
 										{
-											"id": 99,
+											"id": 98,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2410,27 +2397,28 @@
 											},
 											{
 												"type": "reference",
-												"target": -1,
+												"target": 97,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										]
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 147,
+										"target": 146,
 										"name": "SessionStrategy.get"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 146,
+								"target": 145,
 								"name": "SessionStrategy.get"
 							}
 						},
 						{
-							"id": 100,
+							"id": 99,
 							"name": "set",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2440,12 +2428,12 @@
 									"fileName": "session-strategy/cls-hooked-strategy.ts",
 									"line": 26,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L26"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L26"
 								}
 							],
 							"signatures": [
 								{
-									"id": 101,
+									"id": 100,
 									"name": "set",
 									"variant": "signature",
 									"kind": 4096,
@@ -2455,12 +2443,12 @@
 											"fileName": "session-strategy/cls-hooked-strategy.ts",
 											"line": 26,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L26"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L26"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 102,
+											"id": 101,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -2469,7 +2457,7 @@
 									],
 									"parameters": [
 										{
-											"id": 103,
+											"id": 102,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2480,15 +2468,16 @@
 											}
 										},
 										{
-											"id": 104,
+											"id": 103,
 											"name": "value",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": -1,
+												"target": 101,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										}
@@ -2499,14 +2488,14 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 151,
+										"target": 150,
 										"name": "SessionStrategy.set"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 150,
+								"target": 149,
 								"name": "SessionStrategy.set"
 							}
 						}
@@ -2515,29 +2504,29 @@
 						{
 							"title": "Constructors",
 							"children": [
-								88
+								87
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								93
+								92
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								94
+								93
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								114,
-								105,
-								108,
-								96,
-								100
+								113,
+								104,
+								107,
+								95,
+								99
 							]
 						}
 					],
@@ -2546,20 +2535,20 @@
 							"fileName": "session-strategy/cls-hooked-strategy.ts",
 							"line": 7,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L7"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L7"
 						}
 					],
 					"implementedTypes": [
 						{
 							"type": "reference",
-							"target": 145,
+							"target": 144,
 							"name": "SessionStrategy",
 							"package": "@beecode/msh-node-session"
 						}
 					]
 				},
 				{
-					"id": 86,
+					"id": 85,
 					"name": "_defaultNameSpaceId",
 					"variant": "declaration",
 					"kind": 32,
@@ -2571,7 +2560,7 @@
 							"fileName": "session-strategy/cls-hooked-strategy.ts",
 							"line": 5,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L5"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L5"
 						}
 					],
 					"type": {
@@ -2585,13 +2574,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						87
+						86
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						86
+						85
 					]
 				}
 			],
@@ -2600,40 +2589,40 @@
 					"fileName": "session-strategy/cls-hooked-strategy.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 116,
+			"id": 115,
 			"name": "session-strategy/fast-als-strategy",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 117,
+					"id": 116,
 					"name": "FastAlsStrategy",
 					"variant": "declaration",
 					"kind": 128,
 					"flags": {},
 					"children": [
 						{
-							"id": 118,
+							"id": 117,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
 							"flags": {},
 							"signatures": [
 								{
-									"id": 119,
+									"id": 118,
 									"name": "new FastAlsStrategy",
 									"variant": "signature",
 									"kind": 16384,
 									"flags": {},
 									"type": {
 										"type": "reference",
-										"target": 117,
+										"target": 116,
 										"name": "FastAlsStrategy",
 										"package": "@beecode/msh-node-session"
 									}
@@ -2641,7 +2630,7 @@
 							]
 						},
 						{
-							"id": 120,
+							"id": 119,
 							"name": "clear",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2651,12 +2640,12 @@
 									"fileName": "session-strategy/fast-als-strategy.ts",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L8"
 								}
 							],
 							"signatures": [
 								{
-									"id": 121,
+									"id": 120,
 									"name": "clear",
 									"variant": "signature",
 									"kind": 4096,
@@ -2666,12 +2655,12 @@
 											"fileName": "session-strategy/fast-als-strategy.ts",
 											"line": 8,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L8"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L8"
 										}
 									],
 									"parameters": [
 										{
-											"id": 122,
+											"id": 121,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2688,19 +2677,19 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 156,
+										"target": 155,
 										"name": "SessionStrategy.clear"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 155,
+								"target": 154,
 								"name": "SessionStrategy.clear"
 							}
 						},
 						{
-							"id": 123,
+							"id": 122,
 							"name": "createSession",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2710,12 +2699,12 @@
 									"fileName": "session-strategy/fast-als-strategy.ts",
 									"line": 12,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 124,
+									"id": 123,
 									"name": "createSession",
 									"variant": "signature",
 									"kind": 4096,
@@ -2725,12 +2714,12 @@
 											"fileName": "session-strategy/fast-als-strategy.ts",
 											"line": 12,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L12"
 										}
 									],
 									"parameters": [
 										{
-											"id": 125,
+											"id": 124,
 											"name": "callback",
 											"variant": "param",
 											"kind": 32768,
@@ -2738,7 +2727,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 126,
+													"id": 125,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -2748,12 +2737,12 @@
 															"fileName": "session-strategy/fast-als-strategy.ts",
 															"line": 12,
 															"character": 25,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L12"
 														}
 													],
 													"signatures": [
 														{
-															"id": 127,
+															"id": 126,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -2763,7 +2752,7 @@
 																	"fileName": "session-strategy/fast-als-strategy.ts",
 																	"line": 12,
 																	"character": 25,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L12"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L12"
 																}
 															],
 															"type": {
@@ -2776,7 +2765,7 @@
 											}
 										},
 										{
-											"id": 128,
+											"id": 127,
 											"name": "options",
 											"variant": "param",
 											"kind": 32768,
@@ -2785,7 +2774,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 139,
+												"target": 138,
 												"name": "CreateSessionOptions",
 												"package": "@beecode/msh-node-session"
 											}
@@ -2797,19 +2786,19 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 159,
+										"target": 158,
 										"name": "SessionStrategy.createSession"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 158,
+								"target": 157,
 								"name": "SessionStrategy.createSession"
 							}
 						},
 						{
-							"id": 129,
+							"id": 128,
 							"name": "get",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2819,12 +2808,12 @@
 									"fileName": "session-strategy/fast-als-strategy.ts",
 									"line": 19,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L19"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L19"
 								}
 							],
 							"signatures": [
 								{
-									"id": 130,
+									"id": 129,
 									"name": "get",
 									"variant": "signature",
 									"kind": 4096,
@@ -2834,12 +2823,12 @@
 											"fileName": "session-strategy/fast-als-strategy.ts",
 											"line": 19,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L19"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L19"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 131,
+											"id": 130,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -2848,7 +2837,7 @@
 									],
 									"parameters": [
 										{
-											"id": 132,
+											"id": 131,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2868,27 +2857,28 @@
 											},
 											{
 												"type": "reference",
-												"target": -1,
+												"target": 130,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										]
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 147,
+										"target": 146,
 										"name": "SessionStrategy.get"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 146,
+								"target": 145,
 								"name": "SessionStrategy.get"
 							}
 						},
 						{
-							"id": 133,
+							"id": 132,
 							"name": "set",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2898,12 +2888,12 @@
 									"fileName": "session-strategy/fast-als-strategy.ts",
 									"line": 23,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L23"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L23"
 								}
 							],
 							"signatures": [
 								{
-									"id": 134,
+									"id": 133,
 									"name": "set",
 									"variant": "signature",
 									"kind": 4096,
@@ -2913,12 +2903,12 @@
 											"fileName": "session-strategy/fast-als-strategy.ts",
 											"line": 23,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L23"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L23"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 135,
+											"id": 134,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -2927,7 +2917,7 @@
 									],
 									"parameters": [
 										{
-											"id": 136,
+											"id": 135,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -2938,15 +2928,16 @@
 											}
 										},
 										{
-											"id": 137,
+											"id": 136,
 											"name": "value",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": -1,
+												"target": 134,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										}
@@ -2957,14 +2948,14 @@
 									},
 									"implementationOf": {
 										"type": "reference",
-										"target": 151,
+										"target": 150,
 										"name": "SessionStrategy.set"
 									}
 								}
 							],
 							"implementationOf": {
 								"type": "reference",
-								"target": 150,
+								"target": 149,
 								"name": "SessionStrategy.set"
 							}
 						}
@@ -2973,16 +2964,16 @@
 						{
 							"title": "Constructors",
 							"children": [
-								118
+								117
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								120,
-								123,
-								129,
-								133
+								119,
+								122,
+								128,
+								132
 							]
 						}
 					],
@@ -2991,13 +2982,13 @@
 							"fileName": "session-strategy/fast-als-strategy.ts",
 							"line": 7,
 							"character": 13,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L7"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L7"
 						}
 					],
 					"implementedTypes": [
 						{
 							"type": "reference",
-							"target": 145,
+							"target": 144,
 							"name": "SessionStrategy",
 							"package": "@beecode/msh-node-session"
 						}
@@ -3008,7 +2999,7 @@
 				{
 					"title": "Classes",
 					"children": [
-						117
+						116
 					]
 				}
 			],
@@ -3017,26 +3008,26 @@
 					"fileName": "session-strategy/fast-als-strategy.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/fast-als-strategy.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/fast-als-strategy.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 138,
+			"id": 137,
 			"name": "session-strategy/session-strategy",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 145,
+					"id": 144,
 					"name": "SessionStrategy",
 					"variant": "declaration",
 					"kind": 256,
 					"flags": {},
 					"children": [
 						{
-							"id": 155,
+							"id": 154,
 							"name": "clear",
 							"variant": "declaration",
 							"kind": 2048,
@@ -3046,12 +3037,12 @@
 									"fileName": "session-strategy/session-strategy.ts",
 									"line": 7,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L7"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L7"
 								}
 							],
 							"signatures": [
 								{
-									"id": 156,
+									"id": 155,
 									"name": "clear",
 									"variant": "signature",
 									"kind": 4096,
@@ -3061,12 +3052,12 @@
 											"fileName": "session-strategy/session-strategy.ts",
 											"line": 7,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L7"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L7"
 										}
 									],
 									"parameters": [
 										{
-											"id": 157,
+											"id": 156,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -3085,7 +3076,7 @@
 							]
 						},
 						{
-							"id": 158,
+							"id": 157,
 							"name": "createSession",
 							"variant": "declaration",
 							"kind": 2048,
@@ -3095,12 +3086,12 @@
 									"fileName": "session-strategy/session-strategy.ts",
 									"line": 8,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L8"
 								}
 							],
 							"signatures": [
 								{
-									"id": 159,
+									"id": 158,
 									"name": "createSession",
 									"variant": "signature",
 									"kind": 4096,
@@ -3110,12 +3101,12 @@
 											"fileName": "session-strategy/session-strategy.ts",
 											"line": 8,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L8"
 										}
 									],
 									"parameters": [
 										{
-											"id": 160,
+											"id": 159,
 											"name": "callback",
 											"variant": "param",
 											"kind": 32768,
@@ -3123,7 +3114,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 161,
+													"id": 160,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -3133,12 +3124,12 @@
 															"fileName": "session-strategy/session-strategy.ts",
 															"line": 8,
 															"character": 25,
-															"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+															"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L8"
 														}
 													],
 													"signatures": [
 														{
-															"id": 162,
+															"id": 161,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -3148,7 +3139,7 @@
 																	"fileName": "session-strategy/session-strategy.ts",
 																	"line": 8,
 																	"character": 25,
-																	"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8"
+																	"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L8"
 																}
 															],
 															"type": {
@@ -3161,7 +3152,7 @@
 											}
 										},
 										{
-											"id": 163,
+											"id": 162,
 											"name": "options",
 											"variant": "param",
 											"kind": 32768,
@@ -3170,7 +3161,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 139,
+												"target": 138,
 												"name": "CreateSessionOptions",
 												"package": "@beecode/msh-node-session"
 											}
@@ -3184,7 +3175,7 @@
 							]
 						},
 						{
-							"id": 146,
+							"id": 145,
 							"name": "get",
 							"variant": "declaration",
 							"kind": 2048,
@@ -3194,12 +3185,12 @@
 									"fileName": "session-strategy/session-strategy.ts",
 									"line": 5,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L5"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L5"
 								}
 							],
 							"signatures": [
 								{
-									"id": 147,
+									"id": 146,
 									"name": "get",
 									"variant": "signature",
 									"kind": 4096,
@@ -3209,12 +3200,12 @@
 											"fileName": "session-strategy/session-strategy.ts",
 											"line": 5,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L5"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L5"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 148,
+											"id": 147,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -3223,7 +3214,7 @@
 									],
 									"parameters": [
 										{
-											"id": 149,
+											"id": 148,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -3243,8 +3234,9 @@
 											},
 											{
 												"type": "reference",
-												"target": -1,
+												"target": 147,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										]
@@ -3253,7 +3245,7 @@
 							]
 						},
 						{
-							"id": 150,
+							"id": 149,
 							"name": "set",
 							"variant": "declaration",
 							"kind": 2048,
@@ -3263,12 +3255,12 @@
 									"fileName": "session-strategy/session-strategy.ts",
 									"line": 6,
 									"character": 1,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L6"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L6"
 								}
 							],
 							"signatures": [
 								{
-									"id": 151,
+									"id": 150,
 									"name": "set",
 									"variant": "signature",
 									"kind": 4096,
@@ -3278,12 +3270,12 @@
 											"fileName": "session-strategy/session-strategy.ts",
 											"line": 6,
 											"character": 1,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L6"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L6"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 152,
+											"id": 151,
 											"name": "T",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -3292,7 +3284,7 @@
 									],
 									"parameters": [
 										{
-											"id": 153,
+											"id": 152,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -3303,15 +3295,16 @@
 											}
 										},
 										{
-											"id": 154,
+											"id": 153,
 											"name": "value",
 											"variant": "param",
 											"kind": 32768,
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"target": -1,
+												"target": 151,
 												"name": "T",
+												"package": "@beecode/msh-node-session",
 												"refersToTypeParameter": true
 											}
 										}
@@ -3328,10 +3321,10 @@
 						{
 							"title": "Methods",
 							"children": [
-								155,
-								158,
-								146,
-								150
+								154,
+								157,
+								145,
+								149
 							]
 						}
 					],
@@ -3340,47 +3333,47 @@
 							"fileName": "session-strategy/session-strategy.ts",
 							"line": 4,
 							"character": 17,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L4"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L4"
 						}
 					],
 					"implementedBy": [
 						{
 							"type": "reference",
-							"target": 87,
+							"target": 86,
 							"name": "ClsHookedStrategy"
 						},
 						{
 							"type": "reference",
-							"target": 117,
+							"target": 116,
 							"name": "FastAlsStrategy"
 						}
 					]
 				},
 				{
-					"id": 139,
+					"id": 138,
 					"name": "CreateSessionOptions",
 					"variant": "declaration",
-					"kind": 4194304,
+					"kind": 2097152,
 					"flags": {},
 					"sources": [
 						{
 							"fileName": "session-strategy/session-strategy.ts",
 							"line": 2,
 							"character": 12,
-							"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 140,
+							"id": 139,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 141,
+									"id": 140,
 									"name": "defaultValue",
 									"variant": "declaration",
 									"kind": 1024,
@@ -3392,13 +3385,13 @@
 											"fileName": "session-strategy/session-strategy.ts",
 											"line": 2,
 											"character": 37,
-											"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+											"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2"
 										}
 									],
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 142,
+											"id": 141,
 											"name": "__type",
 											"variant": "declaration",
 											"kind": 65536,
@@ -3408,11 +3401,11 @@
 													"fileName": "session-strategy/session-strategy.ts",
 													"line": 2,
 													"character": 52,
-													"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+													"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2"
 												}
 											],
 											"indexSignature": {
-												"id": 143,
+												"id": 142,
 												"name": "__index",
 												"variant": "signature",
 												"kind": 8192,
@@ -3422,12 +3415,12 @@
 														"fileName": "session-strategy/session-strategy.ts",
 														"line": 2,
 														"character": 54,
-														"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+														"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2"
 													}
 												],
 												"parameters": [
 													{
-														"id": 144,
+														"id": 143,
 														"name": "k",
 														"variant": "param",
 														"kind": 32768,
@@ -3451,7 +3444,7 @@
 								{
 									"title": "Properties",
 									"children": [
-										141
+										140
 									]
 								}
 							],
@@ -3460,7 +3453,7 @@
 									"fileName": "session-strategy/session-strategy.ts",
 									"line": 2,
 									"character": 35,
-									"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2"
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2"
 								}
 							]
 						}
@@ -3471,13 +3464,13 @@
 				{
 					"title": "Interfaces",
 					"children": [
-						145
+						144
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						139
+						138
 					]
 				}
 			],
@@ -3486,7 +3479,141 @@
 					"fileName": "session-strategy/session-strategy.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L1"
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 163,
+			"name": "types/global",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 164,
+					"name": "esmImportMocked",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types/global.d.ts",
+							"line": 8,
+							"character": 7,
+							"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/types/global.d.ts#L8"
+						}
+					],
+					"signatures": [
+						{
+							"id": 165,
+							"name": "esmImportMocked",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Example usage: esmImportMocked(import.meta.url, '#src/some-service/some-esm-module')"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": []
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "types/global.d.ts",
+									"line": 8,
+									"character": 24,
+									"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/types/global.d.ts#L8"
+								}
+							],
+							"parameters": [
+								{
+									"id": 166,
+									"name": "metaUrl",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "first parameter needs to be "
+											},
+											{
+												"kind": "code",
+												"text": "`import.meta.url`"
+											}
+										]
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../../node_modules/@types/node/url.d.ts",
+													"qualifiedName": "__global.URL"
+												},
+												"name": "URL",
+												"package": "@types/node",
+												"qualifiedName": "__global.URL"
+											}
+										]
+									}
+								},
+								{
+									"id": 167,
+									"name": "modulePath",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "module path absolute or relative"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"children": [
+						164
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "types/global.d.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/types/global.d.ts#L1"
 				}
 			]
 		}
@@ -3495,54 +3622,54 @@
 		{
 			"title": "Modules",
 			"children": [
-				21,
-				44,
-				62,
-				2,
+				20,
+				43,
+				61,
 				1,
-				85,
-				116,
-				138
+				84,
+				115,
+				137,
+				163
 			]
 		}
 	],
 	"packageName": "@beecode/msh-node-session",
 	"symbolIdMap": {
 		"1": {
-			"sourceFileName": "src/node-session-util.test.ts",
+			"sourceFileName": "src/node-session-util.ts",
 			"qualifiedName": ""
 		},
 		"2": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": ""
+			"qualifiedName": "NodeSessionUtil"
 		},
 		"3": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil"
+			"qualifiedName": "NodeSessionUtil.__constructor"
 		},
 		"4": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil.__constructor"
+			"qualifiedName": "NodeSessionUtil"
 		},
 		"5": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil"
+			"qualifiedName": "props"
 		},
 		"6": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "props"
+			"qualifiedName": "__type"
 		},
 		"7": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "__type.sessionStrategy"
 		},
 		"8": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "__type.sessionStrategy"
+			"qualifiedName": "NodeSessionUtil._strategy"
 		},
 		"9": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil._strategy"
+			"qualifiedName": "NodeSessionUtil.createAsyncSession"
 		},
 		"10": {
 			"sourceFileName": "src/node-session-util.ts",
@@ -3550,15 +3677,15 @@
 		},
 		"11": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil.createAsyncSession"
+			"qualifiedName": "T"
 		},
 		"12": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "callback"
 		},
 		"13": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "callback"
+			"qualifiedName": "__type"
 		},
 		"14": {
 			"sourceFileName": "src/node-session-util.ts",
@@ -3566,7 +3693,7 @@
 		},
 		"15": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "NodeSessionUtil.createSession"
 		},
 		"16": {
 			"sourceFileName": "src/node-session-util.ts",
@@ -3574,51 +3701,51 @@
 		},
 		"17": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "NodeSessionUtil.createSession"
+			"qualifiedName": "callback"
 		},
 		"18": {
 			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "callback"
+			"qualifiedName": "__type"
 		},
 		"19": {
 			"sourceFileName": "src/node-session-util.ts",
 			"qualifiedName": "__type"
 		},
 		"20": {
-			"sourceFileName": "src/node-session-util.ts",
-			"qualifiedName": "__type"
-		},
-		"21": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": ""
 		},
-		"22": {
+		"21": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "ExpressClsHookedHelper"
 		},
-		"23": {
+		"22": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "ExpressClsHookedHelper.__constructor"
 		},
-		"24": {
+		"23": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "ExpressClsHookedHelper"
 		},
-		"25": {
+		"24": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "params"
 		},
-		"26": {
+		"25": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "__type"
 		},
-		"27": {
+		"26": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "__type.clsHookedStrategy"
 		},
-		"28": {
+		"27": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "ExpressClsHookedHelper._clsHookedStrategy"
+		},
+		"28": {
+			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddleware"
 		},
 		"29": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
@@ -3626,19 +3753,19 @@
 		},
 		"30": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "ExpressClsHookedHelper.expressMiddleware"
+			"qualifiedName": "_req"
 		},
 		"31": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "_req"
+			"qualifiedName": "_res"
 		},
 		"32": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "_res"
+			"qualifiedName": "next"
 		},
 		"33": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "next"
+			"qualifiedName": "ExpressClsHookedHelper.expressMiddlewareBindEmitter"
 		},
 		"34": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
@@ -3646,19 +3773,19 @@
 		},
 		"35": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "ExpressClsHookedHelper.expressMiddlewareBindEmitter"
+			"qualifiedName": "req"
 		},
 		"36": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "req"
+			"qualifiedName": "res"
 		},
 		"37": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "res"
+			"qualifiedName": "next"
 		},
 		"38": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "next"
+			"qualifiedName": "expressClsHookedHelperFactory"
 		},
 		"39": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
@@ -3666,51 +3793,51 @@
 		},
 		"40": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "expressClsHookedHelperFactory"
+			"qualifiedName": "params"
 		},
 		"41": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "params"
+			"qualifiedName": "__type"
 		},
 		"42": {
 			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
-			"qualifiedName": "__type"
-		},
-		"43": {
-			"sourceFileName": "src/helpers/express-cls-hooked-helper.ts",
 			"qualifiedName": "__type.clsHookedStrategy"
 		},
-		"44": {
+		"43": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": ""
 		},
-		"45": {
+		"44": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "ExpressFastAlsHelper"
 		},
-		"46": {
+		"45": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "ExpressFastAlsHelper.__constructor"
 		},
-		"47": {
+		"46": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "ExpressFastAlsHelper"
 		},
-		"48": {
+		"47": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "params"
 		},
-		"49": {
+		"48": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "__type"
 		},
-		"50": {
+		"49": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "__type.fastAlsStrategy"
 		},
-		"51": {
+		"50": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "ExpressFastAlsHelper._fastAlsStrategy"
+		},
+		"51": {
+			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
+			"qualifiedName": "ExpressFastAlsHelper.expressMiddleware"
 		},
 		"52": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
@@ -3718,19 +3845,19 @@
 		},
 		"53": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "ExpressFastAlsHelper.expressMiddleware"
+			"qualifiedName": "_req"
 		},
 		"54": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "_req"
+			"qualifiedName": "_res"
 		},
 		"55": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "_res"
+			"qualifiedName": "next"
 		},
 		"56": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "next"
+			"qualifiedName": "expressFastAlsHelperFactory"
 		},
 		"57": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
@@ -3738,55 +3865,55 @@
 		},
 		"58": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "expressFastAlsHelperFactory"
+			"qualifiedName": "params"
 		},
 		"59": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "params"
+			"qualifiedName": "__type"
 		},
 		"60": {
 			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
-			"qualifiedName": "__type"
-		},
-		"61": {
-			"sourceFileName": "src/helpers/express-fast-als-helper.ts",
 			"qualifiedName": "__type.fastAlsStrategy"
 		},
-		"62": {
+		"61": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": ""
 		},
-		"63": {
+		"62": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "FastifyHelper"
 		},
-		"64": {
+		"63": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "FastifyHelper.__constructor"
 		},
-		"65": {
+		"64": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "FastifyHelper"
 		},
-		"66": {
+		"65": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "params"
 		},
-		"67": {
+		"66": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "__type"
 		},
-		"68": {
+		"67": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "__type.sessionStrategy"
 		},
-		"69": {
+		"68": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "FastifyHelper._sessionStrategy"
 		},
-		"70": {
+		"69": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "FastifyHelper.validHooks"
+		},
+		"70": {
+			"sourceFileName": "src/helpers/fastify-helper.ts",
+			"qualifiedName": "FastifyHelper._plugin"
 		},
 		"71": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
@@ -3794,19 +3921,19 @@
 		},
 		"72": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "FastifyHelper._plugin"
+			"qualifiedName": "fastify"
 		},
 		"73": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "fastify"
+			"qualifiedName": "opts"
 		},
 		"74": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "opts"
+			"qualifiedName": "next"
 		},
 		"75": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "next"
+			"qualifiedName": "__type"
 		},
 		"76": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
@@ -3814,7 +3941,7 @@
 		},
 		"77": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "FastifyHelper.beecodeSessionContextPluginFactory"
 		},
 		"78": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
@@ -3822,7 +3949,7 @@
 		},
 		"79": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "FastifyHelper.beecodeSessionContextPluginFactory"
+			"qualifiedName": "fastifyHelperFactory"
 		},
 		"80": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
@@ -3830,55 +3957,55 @@
 		},
 		"81": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "fastifyHelperFactory"
+			"qualifiedName": "params"
 		},
 		"82": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "params"
+			"qualifiedName": "__type"
 		},
 		"83": {
 			"sourceFileName": "src/helpers/fastify-helper.ts",
-			"qualifiedName": "__type"
-		},
-		"84": {
-			"sourceFileName": "src/helpers/fastify-helper.ts",
 			"qualifiedName": "__type.sessionStrategy"
 		},
-		"85": {
+		"84": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": ""
 		},
-		"86": {
+		"85": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "_defaultNameSpaceId"
 		},
-		"87": {
+		"86": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "ClsHookedStrategy"
 		},
-		"88": {
+		"87": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "ClsHookedStrategy.__constructor"
 		},
-		"89": {
+		"88": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "ClsHookedStrategy"
 		},
-		"90": {
+		"89": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "params"
 		},
-		"91": {
+		"90": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "__type"
 		},
-		"92": {
+		"91": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "__type.nameSpaceId"
 		},
-		"93": {
+		"92": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "ClsHookedStrategy._ns"
+		},
+		"93": {
+			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
+			"qualifiedName": "ClsHookedStrategy.NS"
 		},
 		"94": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3886,7 +4013,7 @@
 		},
 		"95": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy.NS"
+			"qualifiedName": "ClsHookedStrategy.get"
 		},
 		"96": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3894,15 +4021,15 @@
 		},
 		"97": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy.get"
+			"qualifiedName": "T"
 		},
 		"98": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"99": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "ClsHookedStrategy.set"
 		},
 		"100": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3910,19 +4037,19 @@
 		},
 		"101": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy.set"
+			"qualifiedName": "T"
 		},
 		"102": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"103": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "value"
 		},
 		"104": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "value"
+			"qualifiedName": "ClsHookedStrategy.clear"
 		},
 		"105": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3930,11 +4057,11 @@
 		},
 		"106": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy.clear"
+			"qualifiedName": "key"
 		},
 		"107": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "ClsHookedStrategy.createSession"
 		},
 		"108": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3942,11 +4069,11 @@
 		},
 		"109": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy.createSession"
+			"qualifiedName": "callback"
 		},
 		"110": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "callback"
+			"qualifiedName": "__type"
 		},
 		"111": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
@@ -3954,27 +4081,27 @@
 		},
 		"112": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "options"
 		},
 		"113": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "options"
+			"qualifiedName": "ClsHookedStrategy._throwErrorIfInactiveContext"
 		},
 		"114": {
 			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
 			"qualifiedName": "ClsHookedStrategy._throwErrorIfInactiveContext"
 		},
 		"115": {
-			"sourceFileName": "src/session-strategy/cls-hooked-strategy.ts",
-			"qualifiedName": "ClsHookedStrategy._throwErrorIfInactiveContext"
-		},
-		"116": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
 			"qualifiedName": ""
 		},
-		"117": {
+		"116": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
 			"qualifiedName": "FastAlsStrategy"
+		},
+		"119": {
+			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
+			"qualifiedName": "FastAlsStrategy.clear"
 		},
 		"120": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
@@ -3982,11 +4109,11 @@
 		},
 		"121": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "FastAlsStrategy.clear"
+			"qualifiedName": "key"
 		},
 		"122": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "FastAlsStrategy.createSession"
 		},
 		"123": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
@@ -3994,11 +4121,11 @@
 		},
 		"124": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "FastAlsStrategy.createSession"
+			"qualifiedName": "callback"
 		},
 		"125": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "callback"
+			"qualifiedName": "__type"
 		},
 		"126": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
@@ -4006,11 +4133,11 @@
 		},
 		"127": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "options"
 		},
 		"128": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "options"
+			"qualifiedName": "FastAlsStrategy.get"
 		},
 		"129": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
@@ -4018,15 +4145,15 @@
 		},
 		"130": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "FastAlsStrategy.get"
+			"qualifiedName": "T"
 		},
 		"131": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"132": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "FastAlsStrategy.set"
 		},
 		"133": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
@@ -4034,47 +4161,47 @@
 		},
 		"134": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "FastAlsStrategy.set"
+			"qualifiedName": "T"
 		},
 		"135": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"136": {
 			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
-			"qualifiedName": "key"
-		},
-		"137": {
-			"sourceFileName": "src/session-strategy/fast-als-strategy.ts",
 			"qualifiedName": "value"
 		},
-		"138": {
+		"137": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": ""
 		},
-		"139": {
+		"138": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "CreateSessionOptions"
 		},
-		"140": {
+		"139": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "__type"
 		},
-		"141": {
+		"140": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "__type.defaultValue"
 		},
-		"142": {
+		"141": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "__type"
 		},
-		"143": {
+		"142": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "__type.__index"
 		},
-		"145": {
+		"144": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
 			"qualifiedName": "SessionStrategy"
+		},
+		"145": {
+			"sourceFileName": "src/session-strategy/session-strategy.ts",
+			"qualifiedName": "SessionStrategy.get"
 		},
 		"146": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
@@ -4082,15 +4209,15 @@
 		},
 		"147": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "SessionStrategy.get"
+			"qualifiedName": "T"
 		},
 		"148": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"149": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "SessionStrategy.set"
 		},
 		"150": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
@@ -4098,19 +4225,19 @@
 		},
 		"151": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "SessionStrategy.set"
+			"qualifiedName": "T"
 		},
 		"152": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "T"
+			"qualifiedName": "key"
 		},
 		"153": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "value"
 		},
 		"154": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "value"
+			"qualifiedName": "SessionStrategy.clear"
 		},
 		"155": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
@@ -4118,11 +4245,11 @@
 		},
 		"156": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "SessionStrategy.clear"
+			"qualifiedName": "key"
 		},
 		"157": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "key"
+			"qualifiedName": "SessionStrategy.createSession"
 		},
 		"158": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
@@ -4130,11 +4257,11 @@
 		},
 		"159": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "SessionStrategy.createSession"
+			"qualifiedName": "callback"
 		},
 		"160": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "callback"
+			"qualifiedName": "__type"
 		},
 		"161": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
@@ -4142,11 +4269,27 @@
 		},
 		"162": {
 			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "options"
 		},
 		"163": {
-			"sourceFileName": "src/session-strategy/session-strategy.ts",
-			"qualifiedName": "options"
+			"sourceFileName": "src/types/global.d.ts",
+			"qualifiedName": ""
+		},
+		"164": {
+			"sourceFileName": "src/types/global.d.ts",
+			"qualifiedName": "__global.esmImportMocked"
+		},
+		"165": {
+			"sourceFileName": "src/types/global.d.ts",
+			"qualifiedName": "__global.esmImportMocked"
+		},
+		"166": {
+			"sourceFileName": "src/types/global.d.ts",
+			"qualifiedName": "metaUrl"
+		},
+		"167": {
+			"sourceFileName": "src/types/global.d.ts",
+			"qualifiedName": "modulePath"
 		}
 	}
 }

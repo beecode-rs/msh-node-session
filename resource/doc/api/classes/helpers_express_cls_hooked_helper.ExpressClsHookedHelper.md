@@ -23,7 +23,7 @@
 
 ### constructor
 
-• **new ExpressClsHookedHelper**(`params`)
+• **new ExpressClsHookedHelper**(`params`): [`ExpressClsHookedHelper`](helpers_express_cls_hooked_helper.ExpressClsHookedHelper.md)
 
 #### Parameters
 
@@ -32,9 +32,13 @@
 | `params` | `Object` |
 | `params.clsHookedStrategy` | [`ClsHookedStrategy`](session_strategy_cls_hooked_strategy.ClsHookedStrategy.md) |
 
+#### Returns
+
+[`ExpressClsHookedHelper`](helpers_express_cls_hooked_helper.ExpressClsHookedHelper.md)
+
 #### Defined in
 
-[helpers/express-cls-hooked-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L8)
+[helpers/express-cls-hooked-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L8)
 
 ## Properties
 
@@ -44,7 +48,7 @@
 
 #### Defined in
 
-[helpers/express-cls-hooked-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L6)
+[helpers/express-cls-hooked-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L6)
 
 ## Methods
 
@@ -56,8 +60,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `_req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
-| `_res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+| `_req` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\> |
+| `_res` | `Response`\<`any`, `Record`\<`string`, `any`\>\> |
 | `next` | `NextFunction` |
 
 #### Returns
@@ -66,7 +70,7 @@
 
 #### Defined in
 
-[helpers/express-cls-hooked-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L13)
+[helpers/express-cls-hooked-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L13)
 
 ___
 
@@ -78,8 +82,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
-| `res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+| `req` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\> |
+| `res` | `Response`\<`any`, `Record`\<`string`, `any`\>\> |
 | `next` | `NextFunction` |
 
 #### Returns
@@ -88,4 +92,4 @@ ___
 
 #### Defined in
 
-[helpers/express-cls-hooked-helper.ts:17](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L17)
+[helpers/express-cls-hooked-helper.ts:17](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L17)

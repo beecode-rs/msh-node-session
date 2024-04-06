@@ -63,7 +63,7 @@
 		"clean": "rimraf ./dist",
 		"clean-cjs": "rimraf ./lib",
 		"doc": "concurrently -c auto 'npm:doc:*'",
-		"doc:api": "npx typedoc",
+		"doc:api": "npx typedoc --tsconfig ./resource/tsconfig/esm.json",
 		"doc:toc": "npx markdown-toc -i ./README.md",
 		"docker-build": "docker build -f ./resource/docker/Dockerfile -t bc-msh-node-session ./",
 		"docker-rmi": "docker rmi bc-msh-node-session",

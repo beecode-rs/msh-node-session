@@ -34,7 +34,7 @@
 
 ### constructor
 
-• **new ClsHookedStrategy**(`params?`)
+• **new ClsHookedStrategy**(`params?`): [`ClsHookedStrategy`](session_strategy_cls_hooked_strategy.ClsHookedStrategy.md)
 
 #### Parameters
 
@@ -43,39 +43,43 @@
 | `params?` | `Object` |
 | `params.nameSpaceId?` | `string` |
 
+#### Returns
+
+[`ClsHookedStrategy`](session_strategy_cls_hooked_strategy.ClsHookedStrategy.md)
+
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:15](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L15)
+[session-strategy/cls-hooked-strategy.ts:15](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L15)
 
 ## Properties
 
 ### \_ns
 
-• `Protected` `Readonly` **\_ns**: `Namespace`<`Record`<`string`, `any`\>\>
+• `Protected` `Readonly` **\_ns**: `Namespace`\<`Record`\<`string`, `any`\>\>
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L8)
+[session-strategy/cls-hooked-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L8)
 
 ## Accessors
 
 ### NS
 
-• `get` **NS**(): `Namespace`<`Record`<`string`, `any`\>\>
+• `get` **NS**(): `Namespace`\<`Record`\<`string`, `any`\>\>
 
 #### Returns
 
-`Namespace`<`Record`<`string`, `any`\>\>
+`Namespace`\<`Record`\<`string`, `any`\>\>
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:11](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L11)
+[session-strategy/cls-hooked-strategy.ts:11](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L11)
 
 ## Methods
 
 ### \_throwErrorIfInactiveContext
 
-▸ `Protected` **_throwErrorIfInactiveContext**(): `void`
+▸ **_throwErrorIfInactiveContext**(): `void`
 
 #### Returns
 
@@ -83,7 +87,7 @@
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:44](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L44)
+[session-strategy/cls-hooked-strategy.ts:44](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L44)
 
 ___
 
@@ -107,7 +111,7 @@ ___
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:31](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L31)
+[session-strategy/cls-hooked-strategy.ts:31](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L31)
 
 ___
 
@@ -132,13 +136,13 @@ ___
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:36](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L36)
+[session-strategy/cls-hooked-strategy.ts:36](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L36)
 
 ___
 
 ### get
 
-▸ **get**<`T`\>(`key`): `undefined` \| `T`
+▸ **get**\<`T`\>(`key`): `undefined` \| `T`
 
 #### Type parameters
 
@@ -162,13 +166,13 @@ ___
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:20](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L20)
+[session-strategy/cls-hooked-strategy.ts:20](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L20)
 
 ___
 
 ### set
 
-▸ **set**<`T`\>(`key`, `value`): `void`
+▸ **set**\<`T`\>(`key`, `value`): `void`
 
 #### Type parameters
 
@@ -193,4 +197,4 @@ ___
 
 #### Defined in
 
-[session-strategy/cls-hooked-strategy.ts:26](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/cls-hooked-strategy.ts#L26)
+[session-strategy/cls-hooked-strategy.ts:26](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/cls-hooked-strategy.ts#L26)

@@ -22,7 +22,7 @@
 
 ### constructor
 
-• **new ExpressFastAlsHelper**(`params`)
+• **new ExpressFastAlsHelper**(`params`): [`ExpressFastAlsHelper`](helpers_express_fast_als_helper.ExpressFastAlsHelper.md)
 
 #### Parameters
 
@@ -31,9 +31,13 @@
 | `params` | `Object` |
 | `params.fastAlsStrategy` | [`FastAlsStrategy`](session_strategy_fast_als_strategy.FastAlsStrategy.md) |
 
+#### Returns
+
+[`ExpressFastAlsHelper`](helpers_express_fast_als_helper.ExpressFastAlsHelper.md)
+
 #### Defined in
 
-[helpers/express-fast-als-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L8)
+[helpers/express-fast-als-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L8)
 
 ## Properties
 
@@ -43,7 +47,7 @@
 
 #### Defined in
 
-[helpers/express-fast-als-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L6)
+[helpers/express-fast-als-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L6)
 
 ## Methods
 
@@ -55,8 +59,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `_req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
-| `_res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+| `_req` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\> |
+| `_res` | `Response`\<`any`, `Record`\<`string`, `any`\>\> |
 | `next` | `NextFunction` |
 
 #### Returns
@@ -65,4 +69,4 @@
 
 #### Defined in
 
-[helpers/express-fast-als-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-fast-als-helper.ts#L13)
+[helpers/express-fast-als-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-fast-als-helper.ts#L13)

@@ -22,8 +22,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `defaultValue?` | { `[k: string]`: `any`;  } |
+| `defaultValue?` | \{ `[k: string]`: `any`;  } |
 
 #### Defined in
 
-[session-strategy/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L2)
+[session-strategy/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L2)

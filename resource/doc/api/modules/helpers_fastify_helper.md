@@ -31,4 +31,4 @@
 
 #### Defined in
 
-[helpers/fastify-helper.ts:51](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L51)
+[helpers/fastify-helper.ts:51](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L51)

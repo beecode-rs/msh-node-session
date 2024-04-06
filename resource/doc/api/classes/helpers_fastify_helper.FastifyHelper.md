@@ -24,7 +24,7 @@
 
 ### constructor
 
-• **new FastifyHelper**(`params`)
+• **new FastifyHelper**(`params`): [`FastifyHelper`](helpers_fastify_helper.FastifyHelper.md)
 
 #### Parameters
 
@@ -33,9 +33,13 @@
 | `params` | `Object` |
 | `params.sessionStrategy` | [`SessionStrategy`](../interfaces/session_strategy_session_strategy.SessionStrategy.md) |
 
+#### Returns
+
+[`FastifyHelper`](helpers_fastify_helper.FastifyHelper.md)
+
 #### Defined in
 
-[helpers/fastify-helper.ts:19](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L19)
+[helpers/fastify-helper.ts:19](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L19)
 
 ## Properties
 
@@ -45,7 +49,7 @@
 
 #### Defined in
 
-[helpers/fastify-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L6)
+[helpers/fastify-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L6)
 
 ___
 
@@ -55,13 +59,13 @@ ___
 
 #### Defined in
 
-[helpers/fastify-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L8)
+[helpers/fastify-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L8)
 
 ## Methods
 
 ### \_plugin
 
-▸ `Protected` **_plugin**(`fastify`, `opts`, `next`): `void`
+▸ **_plugin**(`fastify`, `opts`, `next`): `void`
 
 #### Parameters
 
@@ -77,7 +81,7 @@ ___
 
 #### Defined in
 
-[helpers/fastify-helper.ts:25](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L25)
+[helpers/fastify-helper.ts:25](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L25)
 
 ___
 
@@ -91,4 +95,4 @@ ___
 
 #### Defined in
 
-[helpers/fastify-helper.ts:43](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/fastify-helper.ts#L43)
+[helpers/fastify-helper.ts:43](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/fastify-helper.ts#L43)

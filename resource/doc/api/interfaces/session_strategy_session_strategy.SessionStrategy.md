@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[session-strategy/session-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L7)
+[session-strategy/session-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L7)
 
 ___
 
@@ -57,13 +57,13 @@ ___
 
 #### Defined in
 
-[session-strategy/session-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L8)
+[session-strategy/session-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L8)
 
 ___
 
 ### get
 
-▸ **get**<`T`\>(`key`): `undefined` \| `T`
+▸ **get**\<`T`\>(`key`): `undefined` \| `T`
 
 #### Type parameters
 
@@ -83,13 +83,13 @@ ___
 
 #### Defined in
 
-[session-strategy/session-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L5)
+[session-strategy/session-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L5)
 
 ___
 
 ### set
 
-▸ **set**<`T`\>(`key`, `value`): `void`
+▸ **set**\<`T`\>(`key`, `value`): `void`
 
 #### Type parameters
 
@@ -110,4 +110,4 @@ ___
 
 #### Defined in
 
-[session-strategy/session-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/session-strategy/session-strategy.ts#L6)
+[session-strategy/session-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/session-strategy/session-strategy.ts#L6)

@@ -31,4 +31,4 @@
 
 #### Defined in
 
-[helpers/express-cls-hooked-helper.ts:24](https://github.com/beecode-rs/msh-node-session/blob/d83dc09/src/helpers/express-cls-hooked-helper.ts#L24)
+[helpers/express-cls-hooked-helper.ts:24](https://github.com/beecode-rs/msh-node-session/blob/007a8c1/src/helpers/express-cls-hooked-helper.ts#L24)
