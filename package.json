@@ -98,11 +98,11 @@
 		"tsc": "tsc -p ./resource/tsconfig/esm.json",
 		"tsc-check": "npm run tsc -- --noEmit",
 		"tsc-cjs": "npm run babel -- --out-dir ./lib ./src",
-		"tsc-types-alias": "tsc-alias -p ./resource/tsconfig/types.json",
-		"tsc-types": "tsc -p ./resource/tsconfig/types.json",
 		"tsc-cleaner": "ts-cleaner --dist ./dist",
 		"tsc-cleaner-watch": "npm run tsc-cleaner -- --watch",
 		"tsc-time": "npm run tsc -- --diagnostics",
+		"tsc-types": "tsc -p ./resource/tsconfig/types.json",
+		"tsc-types-alias": "tsc-alias -p ./resource/tsconfig/types.json",
 		"tsc-watch": "npm run tsc -- -w --preserveWatchOutput",
 		"watch": "concurrently -c auto -n build,clean 'npm run tsc-watch' 'npm run tsc-cleaner-watch'"
 	},
