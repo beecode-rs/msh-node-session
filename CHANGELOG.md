@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/beecode-rs/msh-node-session/compare/v3.0.0...v3.0.1) (2024-04-07)
+
+
+### Bug Fixes
+
+* esmodule build output alias path to relative ([2684d55](https://github.com/beecode-rs/msh-node-session/commit/2684d550f9192c1ba1ba952f6a34a52d7e851563))
+
 # [3.0.0](https://github.com/beecode-rs/msh-node-session/compare/v2.2.6...v3.0.0) (2024-04-07)
 
 
