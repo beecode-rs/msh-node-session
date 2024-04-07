@@ -1,4 +1,4 @@
-import { ClsHookedStrategy } from '#src/session-strategy/cls-hooked-strategy';
+import { ClsHookedStrategy } from './session-strategy/cls-hooked-strategy.js';
 export class NodeSessionUtil {
     _strategy;
     constructor(props) {
