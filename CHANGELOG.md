@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/beecode-rs/msh-node-session/compare/v2.2.6...v3.0.0) (2024-04-07)
+
+
+* refactor!: es modules and commonjs build (#3) ([537af00](https://github.com/beecode-rs/msh-node-session/commit/537af00af49053c10d66491a7bfca689c084e2ce)), closes [#3](https://github.com/beecode-rs/msh-node-session/issues/3)
+
+
+### BREAKING CHANGES
+
+* changed file structure
+
 ## [2.2.6](https://github.com/beecode-rs/msh-node-session/compare/v2.2.5...v2.2.6) (2023-05-22)
 
 
