@@ -1,3 +1,11 @@
+## [3.0.4](https://github.com/beecode-rs/msh-node-session/compare/v3.0.3...v3.0.4) (2024-04-15)
+
+
+### Bug Fixes
+
+* bump semantic-release from 23.0.7 to 23.0.8 ([58a7cd9](https://github.com/beecode-rs/msh-node-session/commit/58a7cd97dce13c8e9fb72112266a6d02195a3a27))
+* update package.json ([c970e75](https://github.com/beecode-rs/msh-node-session/commit/c970e756e8fe36ab807209e1bddc63b709b42400))
+
 ## [3.0.3](https://github.com/beecode-rs/msh-node-session/compare/v3.0.2...v3.0.3) (2024-04-09)
 
 
