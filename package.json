@@ -67,7 +67,7 @@
 		"doc:toc": "npx markdown-toc -i ./README.md",
 		"docker-build": "docker build -f ./resource/docker/Dockerfile -t bc-msh-node-session ./",
 		"docker-rmi": "docker rmi bc-msh-node-session",
-		"docker-run-package-lock-update": "docker run --rm -v ./:/usr/app/ milosbugarinovic/msh-lib-base:node20.11.1-alpine3.19 npm i --package-lock-only",
+		"docker-run-package-lock-update": "docker run --rm -v ./:/usr/app/ milosbugarinovic/msh-lib-base:node20.12.2-alpine3.19 npm i --package-lock-only",
 		"docker-run-sh": "docker run --rm -it bc-msh-node-session sh",
 		"fix-hybrid-lib-cjs": "mkdir -p ./lib && echo '{\"type\": \"commonjs\"}' > ./lib/package.json",
 		"init": "concurrently -c auto 'npm:init:*'",
