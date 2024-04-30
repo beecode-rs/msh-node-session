@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/beecode-rs/msh-node-session/compare/v3.0.4...v3.0.5) (2024-04-30)
+
+
+### Bug Fixes
+
+* tsconfig output dir location and update node version 20.12.2 ([a626363](https://github.com/beecode-rs/msh-node-session/commit/a626363e8cc2c39411f525c6ad8875658b314780))
+
 ## [3.0.4](https://github.com/beecode-rs/msh-node-session/compare/v3.0.3...v3.0.4) (2024-04-15)
 
 
