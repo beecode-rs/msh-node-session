@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/beecode-rs/msh-node-session/compare/v3.0.5...v3.0.6) (2024-05-03)
+
+
+### Bug Fixes
+
+* update package.json, esmodule remove alias, use vitest instead of jest ([#17](https://github.com/beecode-rs/msh-node-session/issues/17)) ([dba7307](https://github.com/beecode-rs/msh-node-session/commit/dba7307b113d1d05aac3d65dbf5e7212b80a46f5))
+
 ## [3.0.5](https://github.com/beecode-rs/msh-node-session/compare/v3.0.4...v3.0.5) (2024-04-30)
 
 
