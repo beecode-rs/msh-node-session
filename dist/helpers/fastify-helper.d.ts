@@ -1,4 +1,4 @@
-import { SessionStrategy } from '../session-strategy/session-strategy.js';
+import { SessionStrategy } from '#src/session-strategy/session-strategy';
 export declare class FastifyHelper {
     protected readonly _sessionStrategy: SessionStrategy;
     readonly validHooks: string[];
