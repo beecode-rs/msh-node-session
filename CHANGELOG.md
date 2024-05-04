@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/beecode-rs/msh-node-session/compare/v3.0.6...v3.0.7) (2024-05-04)
+
+
+### Bug Fixes
+
+* update package.json, use shared config for eslint and prettier ([9dd7f81](https://github.com/beecode-rs/msh-node-session/commit/9dd7f810aa232c9b00a7ae133f4b1842fe3b1bc1))
+
 ## [3.0.6](https://github.com/beecode-rs/msh-node-session/compare/v3.0.5...v3.0.6) (2024-05-03)
 
 
