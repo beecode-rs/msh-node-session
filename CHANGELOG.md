@@ -1,3 +1,10 @@
+## [3.0.8](https://github.com/beecode-rs/msh-node-session/compare/v3.0.7...v3.0.8) (2024-05-08)
+
+
+### Bug Fixes
+
+* add shared semantic release config ([af3677f](https://github.com/beecode-rs/msh-node-session/commit/af3677f7f597407aed522fb44fd1bcd4a7f142ca))
+
 ## [3.0.7](https://github.com/beecode-rs/msh-node-session/compare/v3.0.6...v3.0.7) (2024-05-04)
 
 
