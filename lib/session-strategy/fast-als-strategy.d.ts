@@ -1,4 +1,4 @@
-import { CreateSessionOptions, SessionStrategy } from '../session-strategy/session-strategy.js';
+import { type CreateSessionOptions, type SessionStrategy } from '../session-strategy/session-strategy.js';
 export declare class FastAlsStrategy implements SessionStrategy {
     clear(key: string): void;
     createSession(callback: () => void, options?: CreateSessionOptions): void;

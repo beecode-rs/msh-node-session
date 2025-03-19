@@ -1,5 +1,5 @@
-import { NextFunction, Request, Response } from 'express';
-import { FastAlsStrategy } from '../session-strategy/fast-als-strategy.js';
+import { type NextFunction, type Request, type Response } from 'express';
+import { type FastAlsStrategy } from '../session-strategy/fast-als-strategy.js';
 export declare class ExpressFastAlsHelper {
     protected readonly _fastAlsStrategy: FastAlsStrategy;
     constructor(params: {

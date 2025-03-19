@@ -1,4 +1,4 @@
-import { SessionStrategy } from './session-strategy/session-strategy.js';
+import { type SessionStrategy } from './session-strategy/session-strategy.js';
 export declare class NodeSessionUtil {
     protected readonly _strategy: SessionStrategy;
     constructor(props?: {

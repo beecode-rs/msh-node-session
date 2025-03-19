@@ -1,6 +1,6 @@
 import fp from 'fastify-plugin'
 
-import { SessionStrategy } from '#src/session-strategy/session-strategy'
+import { type SessionStrategy } from '#src/session-strategy/session-strategy'
 
 export class FastifyHelper {
 	protected readonly _sessionStrategy: SessionStrategy
@@ -27,7 +27,7 @@ export class FastifyHelper {
 		const hook = opts.hook || 'onRequest'
 
 		if (!this.validHooks.includes(hook)) {
-			fastify.log.error(`${hook} is not a valid fastify hook. Please use one of the following ${this.validHooks}`)
+			fastify.log.error(`${hook} is not a valid fastify hook. Please use one of the following ${this.validHooks.join(', ')}`)
 		}
 
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
