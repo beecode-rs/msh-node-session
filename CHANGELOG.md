@@ -1,3 +1,12 @@
+## [3.0.9](https://github.com/beecode-rs/msh-node-session/compare/v3.0.8...v3.0.9) (2025-03-19)
+
+
+### Bug Fixes
+
+* update @beecode/msh-config to version 1.1.1 ([150f193](https://github.com/beecode-rs/msh-node-session/commit/150f19330f313d9dc5544f34d3f7f16b623c4093))
+* update import path for shared semantic release config ([9260e71](https://github.com/beecode-rs/msh-node-session/commit/9260e71edde29898f5beb3e1184a29193ff30f67))
+* update lint-json-fix command to use -p option for jsonsort ([5953bb9](https://github.com/beecode-rs/msh-node-session/commit/5953bb9f98e3c76d6f8c0f47b38c83bcd8c543e0))
+
 ## [3.0.8](https://github.com/beecode-rs/msh-node-session/compare/v3.0.7...v3.0.8) (2024-05-08)
 
 
