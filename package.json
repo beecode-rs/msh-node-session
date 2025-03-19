@@ -108,7 +108,7 @@
 		}
 	},
 	"dependencies": {
-		"@beecode/msh-config": "1.1.0",
+		"@beecode/msh-config": "1.1.1",
 		"cls-hooked": "4.2.2",
 		"express": "4.21.2",
 		"fast-als": "1.0.1",
