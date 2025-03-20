@@ -1,3 +1,10 @@
+## [3.0.10](https://github.com/beecode-rs/msh-node-session/compare/v3.0.9...v3.0.10) (2025-03-20)
+
+
+### Bug Fixes
+
+* update @beecode/msh-config to 1.1.2 and typedoc to 0.28.1 ([5febed3](https://github.com/beecode-rs/msh-node-session/commit/5febed3f843fec2314275bb4247b002842ab0864))
+
 ## [3.0.9](https://github.com/beecode-rs/msh-node-session/compare/v3.0.8...v3.0.9) (2025-03-19)
 
 
