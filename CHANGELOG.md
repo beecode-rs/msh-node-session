@@ -1,3 +1,10 @@
+## [3.0.11](https://github.com/beecode-rs/msh-node-session/compare/v3.0.10...v3.0.11) (2025-03-20)
+
+
+### Bug Fixes
+
+* update @beecode/msh-config to version 1.1.3 ([05bc722](https://github.com/beecode-rs/msh-node-session/commit/05bc722e11dea2e262c352babcb8d6f0382e43f6))
+
 ## [3.0.10](https://github.com/beecode-rs/msh-node-session/compare/v3.0.9...v3.0.10) (2025-03-20)
 
 
