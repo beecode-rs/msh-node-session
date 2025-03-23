@@ -1,3 +1,11 @@
+## [3.0.12](https://github.com/beecode-rs/msh-node-session/compare/v3.0.11...v3.0.12) (2025-03-23)
+
+
+### Bug Fixes
+
+* refactor ESLint configuration and update dependencies ([e2e1e68](https://github.com/beecode-rs/msh-node-session/commit/e2e1e68cc451204811607ffbd9eaf9eb98cb544c))
+* refactor ESLint configuration and update dependencies ([100e5d6](https://github.com/beecode-rs/msh-node-session/commit/100e5d616a89bf59d89fc538d0b0996417d67d18))
+
 ## [3.0.11](https://github.com/beecode-rs/msh-node-session/compare/v3.0.10...v3.0.11) (2025-03-20)
 
 
