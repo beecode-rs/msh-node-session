@@ -17,12 +17,14 @@ export class ClsHookedStrategy implements SessionStrategy {
 		this._ns = createNamespace(nameSpaceId)
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	get<T>(key: string): T | undefined {
 		this._throwErrorIfInactiveContext()
 
 		return this.NS.get(key) as T | undefined
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	set<T>(key: string, value: T): void {
 		this._throwErrorIfInactiveContext()
 		this.NS.set(key, value)
@@ -36,7 +38,9 @@ export class ClsHookedStrategy implements SessionStrategy {
 	createSession(callback: () => void, options?: CreateSessionOptions): void {
 		const { defaultValue = {} } = options ?? {}
 		this.NS.run(() => {
-			Object.entries(defaultValue).map(([key, value]) => this.set(key, value))
+			Object.entries(defaultValue).map(([key, value]) => {
+				this.set(key, value)
+			})
 			callback()
 		})
 	}

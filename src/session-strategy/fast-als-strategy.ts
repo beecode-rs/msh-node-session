@@ -16,10 +16,12 @@ export class FastAlsStrategy implements SessionStrategy {
 		})
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	get<T>(key: string): T | undefined {
 		return fastAls.get(key) as T | undefined
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	set<T>(key: string, value: T): void {
 		fastAls.set(key, value)
 	}

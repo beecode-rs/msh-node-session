@@ -1,7 +1,5 @@
 export type CreateSessionOptions = {
-    defaultValue?: {
-        [k: string]: any;
-    };
+    defaultValue?: Record<string, any>;
 };
 export interface SessionStrategy {
     get<T>(key: string): T | undefined;

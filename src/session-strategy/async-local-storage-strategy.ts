@@ -5,6 +5,7 @@ import { type CreateSessionOptions, type SessionStrategy } from '#src/session-st
 export class AsyncLocalStorageStrategy implements SessionStrategy {
 	protected readonly _storage = new AsyncLocalStorage<Map<string, unknown>>()
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	get<T>(key: string): T | undefined {
 		const store = this._storage.getStore()
 		this._throwErrorIfInactiveContext(store)
@@ -12,6 +13,7 @@ export class AsyncLocalStorageStrategy implements SessionStrategy {
 		return store!.get(key) as T | undefined
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 	set<T>(key: string, value: T): void {
 		const store = this._storage.getStore()
 		this._throwErrorIfInactiveContext(store)

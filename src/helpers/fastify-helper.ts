@@ -23,10 +23,11 @@ export class FastifyHelper {
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	protected _plugin(fastify: any, opts: any, next: () => void): void {
-		const defaults = opts.defaults || {}
-		const hook = opts.hook || 'onRequest'
+		const defaults = opts.defaults ?? {}
+		const hook = opts.hook ?? 'onRequest'
 
 		if (!this.validHooks.includes(hook)) {
+			// eslint-disable-next-line @typescript-eslint/restrict-template-expressions
 			fastify.log.error(`${hook} is not a valid fastify hook. Please use one of the following ${this.validHooks.join(', ')}`)
 		}
 
