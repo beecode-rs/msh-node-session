@@ -1,3 +1,10 @@
+## [3.0.13](https://github.com/beecode-rs/msh-node-session/compare/v3.0.12...v3.0.13) (2025-03-27)
+
+
+### Bug Fixes
+
+* update package dependencies to latest versions ([8d8575f](https://github.com/beecode-rs/msh-node-session/commit/8d8575fa7a3c271048f4aeb84580a6f15ca81da3))
+
 ## [3.0.12](https://github.com/beecode-rs/msh-node-session/compare/v3.0.11...v3.0.12) (2025-03-23)
 
 
