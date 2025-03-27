@@ -17,6 +17,6 @@
 	},
 	"dependencies": {},
 	"optionalDependencies": {
-		"@beecode/msh-node-session": "2.2.6"
+		"@beecode/msh-node-session": "^2.2.6"
 	}
 }
