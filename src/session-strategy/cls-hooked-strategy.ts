@@ -1,6 +1,6 @@
 import { type Namespace, createNamespace } from 'cls-hooked'
 
-import { type CreateSessionOptions, type SessionStrategy } from '#src/session-strategy/session-strategy'
+import { type CreateSessionOptions, type SessionStrategy } from '#src/session-strategy/session-strategy.js'
 
 export const _defaultNameSpaceId = 'node-session-context-id-89a2af34c0a3f'
 

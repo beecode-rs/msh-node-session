@@ -1,6 +1,6 @@
 import { AsyncLocalStorage } from 'node:async_hooks'
 
-import { type CreateSessionOptions, type SessionStrategy } from '#src/session-strategy/session-strategy'
+import { type CreateSessionOptions, type SessionStrategy } from '#src/session-strategy/session-strategy.js'
 
 export class AsyncLocalStorageStrategy implements SessionStrategy {
 	protected readonly _storage = new AsyncLocalStorage<Map<string, unknown>>()

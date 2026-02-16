@@ -1,6 +1,9 @@
 {
 	"compilerOptions": {
-		"rootDir": "./src"
+		"inlineSourceMap": false,
+		"inlineSources": false,
+		"rootDir": "./src",
+		"sourceMap": false
 	},
 	"exclude": [
 		"**/*.test.ts",

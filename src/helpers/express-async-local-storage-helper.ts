@@ -1,6 +1,6 @@
 import { type NextFunction, type Request, type Response } from 'express'
 
-import { type AsyncLocalStorageStrategy } from '#src/session-strategy/async-local-storage-strategy'
+import { type AsyncLocalStorageStrategy } from '#src/session-strategy/async-local-storage-strategy.js'
 
 export class ExpressAsyncLocalStorageHelper {
 	protected readonly _asyncLocalStorageStrategy: AsyncLocalStorageStrategy
