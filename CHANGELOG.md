@@ -1,3 +1,10 @@
+## [3.0.14](https://github.com/beecode-rs/msh-node-session/compare/v3.0.13...v3.0.14) (2026-02-16)
+
+
+### Bug Fixes
+
+* update gitignore and clean build outputs ([fedd4fd](https://github.com/beecode-rs/msh-node-session/commit/fedd4fd7c37c2fd7a2a933a985fd293309b6ea40))
+
 ## [3.0.13](https://github.com/beecode-rs/msh-node-session/compare/v3.0.12...v3.0.13) (2025-03-27)
 
 
