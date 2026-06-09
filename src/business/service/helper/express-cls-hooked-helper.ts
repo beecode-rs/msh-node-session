@@ -1,6 +1,6 @@
 import { type NextFunction, type Request, type Response } from 'express'
 
-import { type ClsHookedStrategy } from '#src/session-strategy/cls-hooked-strategy.js'
+import { type ClsHookedStrategy } from '#src/business/service/session-strategy/cls-hooked-strategy.js'
 
 export class ExpressClsHookedHelper {
 	protected readonly _clsHookedStrategy: ClsHookedStrategy
@@ -21,6 +21,8 @@ export class ExpressClsHookedHelper {
 	}
 }
 
-export const expressClsHookedHelperFactory = (params: { clsHookedStrategy: ClsHookedStrategy }): ExpressClsHookedHelper => {
+export const expressClsHookedHelperFactory = (params: {
+	clsHookedStrategy: ClsHookedStrategy
+}): ExpressClsHookedHelper => {
 	return new ExpressClsHookedHelper(params)
 }

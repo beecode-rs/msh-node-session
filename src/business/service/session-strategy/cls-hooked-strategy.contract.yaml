@@ -1,0 +1,46 @@
+subject: ClsHookedStrategy
+module: ./cls-hooked-strategy.js
+subjectType: class
+constructor:
+  terms:
+    - description: creates with default namespace id
+      params: []
+      result:
+        _ns: {}
+    - description: creates with custom namespace id
+      params:
+        - nameSpaceId: my-custom-ns
+      result:
+        _ns: {}
+methods:
+  get:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey']
+        error: No active session found
+  set:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey', 'anyValue']
+        error: No active session found
+  clear:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey']
+        error: No active session found
+  createSession:
+    terms:
+      - description: runs callback within a new session
+        constructorParams: []
+        params: [__fn__]
+        result: !undefined
+      - description: runs callback with default values
+        constructorParams: []
+        params:
+          - __fn__
+          - defaultValue:
+              presetKey: presetValue
+        result: !undefined

@@ -1,5 +1,5 @@
-import { ClsHookedStrategy } from '#src/session-strategy/cls-hooked-strategy.js'
-import { type SessionStrategy } from '#src/session-strategy/session-strategy.js'
+import { ClsHookedStrategy } from '#src/business/service/session-strategy/cls-hooked-strategy.js'
+import { type SessionStrategy } from '#src/business/service/session-strategy.js'
 
 export class NodeSessionUtil {
 	protected readonly _strategy: SessionStrategy
