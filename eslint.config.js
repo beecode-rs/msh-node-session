@@ -19,7 +19,7 @@ export default [
 			'jest.config*.ts',
 			'eslint.config.js',
 			'release.config.cjs',
-		'.history',
+			'.history',
 		],
 	},
 	...eslintNode,

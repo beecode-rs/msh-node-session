@@ -1,0 +1,21 @@
+subject: NodeSessionUtil
+module: ./node-session-util.js
+subjectType: class
+constructor:
+  terms:
+    - description: creates with default ClsHookedStrategy
+      params: []
+      result:
+        _strategy: {}
+    - description: creates with no argument
+      params:
+        - sessionStrategy: !undefined
+      result:
+        _strategy: {}
+methods:
+  createSession:
+    terms:
+      - description: delegates to strategy and runs callback in session
+        constructorParams: []
+        params: [__fn__]
+        result: !undefined

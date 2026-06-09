@@ -1,0 +1,40 @@
+subject: AsyncLocalStorageStrategy
+module: ./async-local-storage-strategy.js
+subjectType: class
+constructor:
+  terms:
+    - params: []
+      result:
+        _storage: {}
+methods:
+  get:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey']
+        error: No active session found
+  set:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey', 'anyValue']
+        error: No active session found
+  clear:
+    terms:
+      - description: throws when no active session exists
+        constructorParams: []
+        params: ['anyKey']
+        error: No active session found
+  createSession:
+    terms:
+      - description: runs callback within a new session
+        constructorParams: []
+        params: [__fn__]
+        result: !undefined
+      - description: runs callback with default values
+        constructorParams: []
+        params:
+          - __fn__
+          - defaultValue:
+              presetKey: presetValue
+        result: !undefined
