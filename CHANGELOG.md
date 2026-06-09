@@ -1,3 +1,27 @@
+# [4.0.0](https://github.com/beecode-rs/msh-node-session/compare/v3.0.14...v4.0.0) (2026-06-09)
+
+
+* refactor!: restructure session strategies and modernize build pipeline ([#71](https://github.com/beecode-rs/msh-node-session/issues/71)) ([d8e3e2e](https://github.com/beecode-rs/msh-node-session/commit/d8e3e2ed977039a92461f3e4006bb4e8b1deba9b))
+
+
+### BREAKING CHANGES
+
+* Remove CommonJS /lib output and babel from build pipeline.
+
+Packages now ship ESM-only (dist/). Consumers using `require()` or importing from `lib/` must migrate to ESM `import` from `dist/`.
+Minimum Node.js version is now v22.22.1.
+
+- Move session strategies under business/service/
+- Add express and fastify helper classes
+- Export node-session-util from package entry point
+- Drop babel.config.cjs and related dependencies
+- Remove /lib output directory references
+- Upgrade Node.js to v22.22.1, update CI to ubuntu2404
+- Add nvm loading to husky hooks
+- Remove vite-tsconfig-paths plugin
+- Remove IDE-generated iml file
+- Add contract tests and vitest config
+
 ## [3.0.14](https://github.com/beecode-rs/msh-node-session/compare/v3.0.13...v3.0.14) (2026-02-16)
 
 
