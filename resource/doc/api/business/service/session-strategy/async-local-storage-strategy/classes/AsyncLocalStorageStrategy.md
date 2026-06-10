@@ -6,7 +6,7 @@
 
 # Class: AsyncLocalStorageStrategy
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L5)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L5)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:5
 
 > `protected` `readonly` **\_storage**: `AsyncLocalStorage`\<`Map`\<`string`, `unknown`\>\>
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L6)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L6)
 
 ## Methods
 
@@ -36,7 +36,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:6
 
 > `protected` **\_throwErrorIfInactiveContext**(`store?`): `void`
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:35](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L35)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:35](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L35)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:3
 
 > **clear**(`key`): `void`
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:23](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L23)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:23](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L23)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:2
 
 > **createSession**(`callback`, `options?`): `void`
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:29](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L29)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:29](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L29)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:2
 
 > **get**\<`T`\>(`key`): `T` \| `undefined`
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:9](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L9)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:9](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L9)
 
 #### Type Parameters
 
@@ -130,7 +130,7 @@ Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:9
 
 > **set**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:17](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/async-local-storage-strategy.ts#L17)
+Defined in: [business/service/session-strategy/async-local-storage-strategy.ts:17](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/async-local-storage-strategy.ts#L17)
 
 #### Type Parameters
 

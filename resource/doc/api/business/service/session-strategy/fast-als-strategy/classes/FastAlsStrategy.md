@@ -6,7 +6,7 @@
 
 # Class: FastAlsStrategy
 
-Defined in: [business/service/session-strategy/fast-als-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/fast-als-strategy.ts#L7)
+Defined in: [business/service/session-strategy/fast-als-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/fast-als-strategy.ts#L7)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [business/service/session-strategy/fast-als-strategy.ts:7](https://g
 
 > **clear**(`key`): `void`
 
-Defined in: [business/service/session-strategy/fast-als-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/fast-als-strategy.ts#L8)
+Defined in: [business/service/session-strategy/fast-als-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/fast-als-strategy.ts#L8)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [business/service/session-strategy/fast-als-strategy.ts:8](https://g
 
 > **createSession**(`callback`, `options?`): `void`
 
-Defined in: [business/service/session-strategy/fast-als-strategy.ts:12](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/fast-als-strategy.ts#L12)
+Defined in: [business/service/session-strategy/fast-als-strategy.ts:12](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/fast-als-strategy.ts#L12)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [business/service/session-strategy/fast-als-strategy.ts:12](https://
 
 > **get**\<`T`\>(`key`): `T` \| `undefined`
 
-Defined in: [business/service/session-strategy/fast-als-strategy.ts:20](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/fast-als-strategy.ts#L20)
+Defined in: [business/service/session-strategy/fast-als-strategy.ts:20](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/fast-als-strategy.ts#L20)
 
 #### Type Parameters
 
@@ -104,7 +104,7 @@ Defined in: [business/service/session-strategy/fast-als-strategy.ts:20](https://
 
 > **set**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [business/service/session-strategy/fast-als-strategy.ts:25](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/fast-als-strategy.ts#L25)
+Defined in: [business/service/session-strategy/fast-als-strategy.ts:25](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy/fast-als-strategy.ts#L25)
 
 #### Type Parameters
 

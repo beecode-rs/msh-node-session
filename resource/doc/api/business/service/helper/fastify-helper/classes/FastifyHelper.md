@@ -6,7 +6,7 @@
 
 # Class: FastifyHelper
 
-Defined in: [business/service/helper/fastify-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L5)
+Defined in: [business/service/helper/fastify-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [business/service/helper/fastify-helper.ts:5](https://github.com/bee
 
 > **new FastifyHelper**(`params`): `FastifyHelper`
 
-Defined in: [business/service/helper/fastify-helper.ts:19](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L19)
+Defined in: [business/service/helper/fastify-helper.ts:19](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L19)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [business/service/helper/fastify-helper.ts:19](https://github.com/be
 
 > `protected` `readonly` **\_sessionStrategy**: [`SessionStrategy`](../../../session-strategy/interfaces/SessionStrategy.md)
 
-Defined in: [business/service/helper/fastify-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L6)
+Defined in: [business/service/helper/fastify-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L6)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [business/service/helper/fastify-helper.ts:6](https://github.com/bee
 
 > `readonly` **validHooks**: `string`[]
 
-Defined in: [business/service/helper/fastify-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L8)
+Defined in: [business/service/helper/fastify-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L8)
 
 ## Methods
 
@@ -50,7 +50,7 @@ Defined in: [business/service/helper/fastify-helper.ts:8](https://github.com/bee
 
 > `protected` **\_plugin**(`fastify`, `opts`, `next`): `void`
 
-Defined in: [business/service/helper/fastify-helper.ts:25](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L25)
+Defined in: [business/service/helper/fastify-helper.ts:25](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L25)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [business/service/helper/fastify-helper.ts:25](https://github.com/be
 
 > **beecodeSessionContextPluginFactory**(): `any`
 
-Defined in: [business/service/helper/fastify-helper.ts:45](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L45)
+Defined in: [business/service/helper/fastify-helper.ts:45](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/fastify-helper.ts#L45)
 
 #### Returns
 

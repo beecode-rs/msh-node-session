@@ -8,7 +8,7 @@
 
 > **CreateSessionOptions** = `object`
 
-Defined in: [business/service/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L2)
+Defined in: [business/service/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy.ts#L2)
 
 ## Properties
 
@@ -16,4 +16,4 @@ Defined in: [business/service/session-strategy.ts:2](https://github.com/beecode-
 
 > `optional` **defaultValue?**: `Record`\<`string`, `any`\>
 
-Defined in: [business/service/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L2)
+Defined in: [business/service/session-strategy.ts:2](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/session-strategy.ts#L2)

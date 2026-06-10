@@ -6,7 +6,7 @@
 
 # Class: NodeSessionUtil
 
-Defined in: [util/node-session-util.ts:4](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/util/node-session-util.ts#L4)
+Defined in: [util/node-session-util.ts:4](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/util/node-session-util.ts#L4)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [util/node-session-util.ts:4](https://github.com/beecode-rs/msh-node
 
 > **new NodeSessionUtil**(`props?`): `NodeSessionUtil`
 
-Defined in: [util/node-session-util.ts:7](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/util/node-session-util.ts#L7)
+Defined in: [util/node-session-util.ts:7](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/util/node-session-util.ts#L7)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [util/node-session-util.ts:7](https://github.com/beecode-rs/msh-node
 
 > `protected` `readonly` **\_strategy**: [`SessionStrategy`](../../../business/service/session-strategy/interfaces/SessionStrategy.md)
 
-Defined in: [util/node-session-util.ts:5](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/util/node-session-util.ts#L5)
+Defined in: [util/node-session-util.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/util/node-session-util.ts#L5)
 
 ## Methods
 
@@ -42,7 +42,7 @@ Defined in: [util/node-session-util.ts:5](https://github.com/beecode-rs/msh-node
 
 > **createAsyncSession**\<`T`\>(`callback`): `Promise`\<`T`\>
 
-Defined in: [util/node-session-util.ts:13](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/util/node-session-util.ts#L13)
+Defined in: [util/node-session-util.ts:13](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/util/node-session-util.ts#L13)
 
 #### Type Parameters
 
@@ -66,7 +66,7 @@ Defined in: [util/node-session-util.ts:13](https://github.com/beecode-rs/msh-nod
 
 > **createSession**(`callback`): `void`
 
-Defined in: [util/node-session-util.ts:21](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/util/node-session-util.ts#L21)
+Defined in: [util/node-session-util.ts:21](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/util/node-session-util.ts#L21)
 
 #### Parameters
 

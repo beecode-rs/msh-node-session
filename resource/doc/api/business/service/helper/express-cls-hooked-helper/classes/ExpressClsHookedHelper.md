@@ -6,7 +6,7 @@
 
 # Class: ExpressClsHookedHelper
 
-Defined in: [business/service/helper/express-cls-hooked-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-cls-hooked-helper.ts#L5)
+Defined in: [business/service/helper/express-cls-hooked-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/express-cls-hooked-helper.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [business/service/helper/express-cls-hooked-helper.ts:5](https://git
 
 > **new ExpressClsHookedHelper**(`params`): `ExpressClsHookedHelper`
 
-Defined in: [business/service/helper/express-cls-hooked-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-cls-hooked-helper.ts#L8)
+Defined in: [business/service/helper/express-cls-hooked-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/express-cls-hooked-helper.ts#L8)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [business/service/helper/express-cls-hooked-helper.ts:8](https://git
 
 > `protected` `readonly` **\_clsHookedStrategy**: [`ClsHookedStrategy`](../../../session-strategy/cls-hooked-strategy/classes/ClsHookedStrategy.md)
 
-Defined in: [business/service/helper/express-cls-hooked-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-cls-hooked-helper.ts#L6)
+Defined in: [business/service/helper/express-cls-hooked-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/express-cls-hooked-helper.ts#L6)
 
 ## Methods
 
@@ -42,7 +42,7 @@ Defined in: [business/service/helper/express-cls-hooked-helper.ts:6](https://git
 
 > **expressMiddleware**(`_req`, `_res`, `next`): `void`
 
-Defined in: [business/service/helper/express-cls-hooked-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-cls-hooked-helper.ts#L13)
+Defined in: [business/service/helper/express-cls-hooked-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/express-cls-hooked-helper.ts#L13)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: [business/service/helper/express-cls-hooked-helper.ts:13](https://gi
 
 > **expressMiddlewareBindEmitter**(`req`, `res`, `next`): `void`
 
-Defined in: [business/service/helper/express-cls-hooked-helper.ts:17](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-cls-hooked-helper.ts#L17)
+Defined in: [business/service/helper/express-cls-hooked-helper.ts:17](https://github.com/beecode-rs/msh-node-session/blob/d2b749923dd6e997cea939634c7ebb04054628c8/src/business/service/helper/express-cls-hooked-helper.ts#L17)
 
 #### Parameters
 
