@@ -1,3 +1,12 @@
+## [4.0.1](https://github.com/beecode-rs/msh-node-session/compare/v4.0.0...v4.0.1) (2026-06-10)
+
+
+### Bug Fixes
+
+* bump @beecode/msh-config to 1.1.11 ([73b72ea](https://github.com/beecode-rs/msh-node-session/commit/73b72ea9132e5d8ed66cc579b141d30d8bd914ef))
+* update @beecode/msh-config to 1.1.12 ([01be772](https://github.com/beecode-rs/msh-node-session/commit/01be772e5084676c09914a4c4d369fade2678558))
+* update dependencies ([e7fb5fd](https://github.com/beecode-rs/msh-node-session/commit/e7fb5fd6a1afa95a957728397786b0326e699fb8))
+
 # [4.0.0](https://github.com/beecode-rs/msh-node-session/compare/v3.0.14...v4.0.0) (2026-06-09)
 
 
