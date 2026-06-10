@@ -6,7 +6,7 @@
 
 # Interface: SessionStrategy
 
-Defined in: [business/service/session-strategy.ts:4](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy.ts#L4)
+Defined in: [business/service/session-strategy.ts:4](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L4)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [business/service/session-strategy.ts:4](https://github.com/beecode-
 
 > **clear**(`key`): `void`
 
-Defined in: [business/service/session-strategy.ts:9](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy.ts#L9)
+Defined in: [business/service/session-strategy.ts:9](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L9)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: [business/service/session-strategy.ts:9](https://github.com/beecode-
 
 > **createSession**(`callback`, `options?`): `void`
 
-Defined in: [business/service/session-strategy.ts:10](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy.ts#L10)
+Defined in: [business/service/session-strategy.ts:10](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L10)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [business/service/session-strategy.ts:10](https://github.com/beecode
 
 > **get**\<`T`\>(`key`): `T` \| `undefined`
 
-Defined in: [business/service/session-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy.ts#L6)
+Defined in: [business/service/session-strategy.ts:6](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L6)
 
 #### Type Parameters
 
@@ -78,7 +78,7 @@ Defined in: [business/service/session-strategy.ts:6](https://github.com/beecode-
 
 > **set**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [business/service/session-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy.ts#L8)
+Defined in: [business/service/session-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy.ts#L8)
 
 #### Type Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ClsHookedStrategy
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L7)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:7](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L7)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:7](https:/
 
 > **new ClsHookedStrategy**(`params?`): `ClsHookedStrategy`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:15](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L15)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:15](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L15)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:15](https:
 
 > `protected` `readonly` **\_ns**: `Namespace`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L8)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L8)
 
 ## Accessors
 
@@ -48,7 +48,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:8](https:/
 
 > **get** **NS**(): `Namespace`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:11](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L11)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:11](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L11)
 
 ##### Returns
 
@@ -60,7 +60,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:11](https:
 
 > `protected` **\_throwErrorIfInactiveContext**(): `void`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:48](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L48)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:48](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L48)
 
 #### Returns
 
@@ -72,7 +72,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:48](https:
 
 > **clear**(`key`): `void`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:33](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L33)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:33](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L33)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:33](https:
 
 > **createSession**(`callback`, `options?`): `void`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:38](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L38)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:38](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L38)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:38](https:
 
 > **get**\<`T`\>(`key`): `T` \| `undefined`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:21](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L21)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:21](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L21)
 
 #### Type Parameters
 
@@ -148,7 +148,7 @@ Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:21](https:
 
 > **set**\<`T`\>(`key`, `value`): `void`
 
-Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:28](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/session-strategy/cls-hooked-strategy.ts#L28)
+Defined in: [business/service/session-strategy/cls-hooked-strategy.ts:28](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/session-strategy/cls-hooked-strategy.ts#L28)
 
 #### Type Parameters
 

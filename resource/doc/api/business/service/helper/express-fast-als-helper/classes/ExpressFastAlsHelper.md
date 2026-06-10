@@ -6,7 +6,7 @@
 
 # Class: ExpressFastAlsHelper
 
-Defined in: [business/service/helper/express-fast-als-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/helper/express-fast-als-helper.ts#L5)
+Defined in: [business/service/helper/express-fast-als-helper.ts:5](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-fast-als-helper.ts#L5)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [business/service/helper/express-fast-als-helper.ts:5](https://githu
 
 > **new ExpressFastAlsHelper**(`params`): `ExpressFastAlsHelper`
 
-Defined in: [business/service/helper/express-fast-als-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/helper/express-fast-als-helper.ts#L8)
+Defined in: [business/service/helper/express-fast-als-helper.ts:8](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-fast-als-helper.ts#L8)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [business/service/helper/express-fast-als-helper.ts:8](https://githu
 
 > `protected` `readonly` **\_fastAlsStrategy**: [`FastAlsStrategy`](../../../session-strategy/fast-als-strategy/classes/FastAlsStrategy.md)
 
-Defined in: [business/service/helper/express-fast-als-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/helper/express-fast-als-helper.ts#L6)
+Defined in: [business/service/helper/express-fast-als-helper.ts:6](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-fast-als-helper.ts#L6)
 
 ## Methods
 
@@ -42,7 +42,7 @@ Defined in: [business/service/helper/express-fast-als-helper.ts:6](https://githu
 
 > **expressMiddleware**(`_req`, `_res`, `next`): `void`
 
-Defined in: [business/service/helper/express-fast-als-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/helper/express-fast-als-helper.ts#L13)
+Defined in: [business/service/helper/express-fast-als-helper.ts:13](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/express-fast-als-helper.ts#L13)
 
 #### Parameters
 

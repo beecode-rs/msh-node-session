@@ -8,7 +8,7 @@
 
 > **fastifyHelperFactory**(`params`): [`FastifyHelper`](../classes/FastifyHelper.md)
 
-Defined in: [business/service/helper/fastify-helper.ts:53](https://github.com/beecode-rs/msh-node-session/blob/b011a19b43b510ac717227ba9aec3e8586960dd7/src/business/service/helper/fastify-helper.ts#L53)
+Defined in: [business/service/helper/fastify-helper.ts:53](https://github.com/beecode-rs/msh-node-session/blob/73b72ea9132e5d8ed66cc579b141d30d8bd914ef/src/business/service/helper/fastify-helper.ts#L53)
 
 ## Parameters
 
