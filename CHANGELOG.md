@@ -1,3 +1,11 @@
+## [4.0.3](https://github.com/beecode-rs/msh-node-session/compare/v4.0.2...v4.0.3) (2026-06-10)
+
+
+### Bug Fixes
+
+* update dependency lock file ([36da3e0](https://github.com/beecode-rs/msh-node-session/commit/36da3e0d43aba605ff09437b6833c6374a0951ee))
+* update msh-config to 1.2.0 ([d2b7499](https://github.com/beecode-rs/msh-node-session/commit/d2b749923dd6e997cea939634c7ebb04054628c8))
+
 ## [4.0.2](https://github.com/beecode-rs/msh-node-session/compare/v4.0.1...v4.0.2) (2026-06-10)
 
 
