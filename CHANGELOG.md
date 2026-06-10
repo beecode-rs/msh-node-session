@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/beecode-rs/msh-node-session/compare/v4.0.1...v4.0.2) (2026-06-10)
+
+
+### Bug Fixes
+
+* update typescript dependency ([7902275](https://github.com/beecode-rs/msh-node-session/commit/7902275a809cb2336e57d0f3764a5705c4199877))
+
 ## [4.0.1](https://github.com/beecode-rs/msh-node-session/compare/v4.0.0...v4.0.1) (2026-06-10)
 
 
