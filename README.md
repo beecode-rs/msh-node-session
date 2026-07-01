@@ -40,10 +40,10 @@ This project is intended to be used in typescript project.
 ```typescript
 // src/util/session-util.ts
 
-import { NodeSessionUtil } from '@beecode/msh-node-session/dist/util/node-session-util'
-import { FastAlsStrategy } from '@beecode/msh-node-session/dist/business/service/session-strategy/fast-als-strategy'
-// import { ClsHookedStrategy } from '@beecode/msh-node-session/dist/business/service/session-strategy/cls-hooked-strategy'
-import { SessionStrategy } from '@beecode/msh-node-session/dist/business/service/session-strategy'
+import { NodeSessionUtil } from '@beecode/msh-node-session/util/node-session-util'
+import { FastAlsStrategy } from '@beecode/msh-node-session/business/service/session-strategy/fast-als-strategy'
+// import { ClsHookedStrategy } from '@beecode/msh-node-session/business/service/session-strategy/cls-hooked-strategy'
+import { SessionStrategy } from '@beecode/msh-node-session/business/service/session-strategy'
 import { cacheUtil } from '@beecode/msh-node-util/lib/cache-util.js'
 
 export enum SessionData {
@@ -115,7 +115,7 @@ export const sessionUtil = cacheUtil.singleton(() => new SessionUtil({ sessionSt
 
 ```typescript
 import Fastify from 'fastify'
-import { fastifyHelperFactory } from '@beecode/msh-node-session/dist/business/service/helper/fastify-helper'
+import { fastifyHelperFactory } from '@beecode/msh-node-session/business/service/helper/fastify-helper'
 import { sessionStrategy } from 'src/util/session-util'
 
 
@@ -133,7 +133,7 @@ await fastify.register(fastifyHelper.beecodeSessionContextPluginFactory())
 
 ```typescript
 import express from 'express'
-import { expressFastAlsHelperFactory } from '@beecode/msh-node-session/dist/business/service/helper/express-fast-als-helper'
+import { expressFastAlsHelperFactory } from '@beecode/msh-node-session/business/service/helper/express-fast-als-helper'
 import { sessionStrategy } from 'src/util/session-util'
 
 const expressApp = express()
@@ -148,7 +148,7 @@ this._expressApp.use((req, res, next) => expressFastAlsHelper.expressMiddleware(
 
 ```typescript
 import express from 'express'
-import { expressClsHookedHelperFactory } from '@beecode/msh-node-session/dist/business/service/helper/express-cls-hooked-helper'
+import { expressClsHookedHelperFactory } from '@beecode/msh-node-session/business/service/helper/express-cls-hooked-helper'
 import { sessionStrategy } from 'src/util/session-util'
 
 const expressApp = express()
