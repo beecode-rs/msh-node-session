@@ -1,3 +1,10 @@
+## [4.0.5](https://github.com/beecode-rs/msh-node-session/compare/v4.0.4...v4.0.5) (2026-07-02)
+
+
+### Bug Fixes
+
+* update msh-test-contractor ([611f8d0](https://github.com/beecode-rs/msh-node-session/commit/611f8d085b7bf2f27fba8fd88b5115d7583f6690))
+
 ## [4.0.4](https://github.com/beecode-rs/msh-node-session/compare/v4.0.3...v4.0.4) (2026-07-01)
 
 
